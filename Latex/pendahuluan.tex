@@ -6,29 +6,45 @@
 % Jika ingin menambahkan Sub-Sub Judul lainnya, silakan melihat contoh yang ada.
 % Sub-sub Judul 
 \subsection*{Latar Belakang}
-Analisis sentimen adalah bidang ilmu yang menganalisis opini, penilaian serta sentimen terhadap suatu isu tertentu \citeauthor{LIU2012} (\cite*{LIU2012}). Analisis sentimen juga dapat digunakan sebagai penentuan keputusan terhadap suatu isu atau masalah. Opini – opini yang selanjutnya akan digunakan sebagai data untuk penentuan keputusan tehadap isu yang ada. Analisis sentimen juga memegang peranan pada pengolahan opini yang mengandung polaritas, yaitu memiliki nilai sentimen yang positif ataupun negatif (Novantirani, 2014). Sosial media merupakan tempat yang memungkinkan semua orang untuk mengekspresikan opini mereka ke publik \citeauthor{LIU2012} (\cite*{LIU2012}). Menurut Semiocast, lembaga riset media sosial yang berpusat di Paris, Prancis, jumlah pemilik akun Twitter di Indonesia merupakan yang terbesar kelima di dunia, dan berada pada posisi ketiga negara yang paling aktif mengirim pesan Twitter (tweet) perhari (Tempo 2012). Banyaknya pengguna Twitter dan adanya kemudahan dalam penyampaian opini melalui media ini, maka data opini berupa tweet tersebut yang kemudian dapat menjadi peluang dan dapat dimanfaatkan sebagai bahan penilaian, tingkat kepuasan dan evaluasi (Novantirani, 2014). Hal ini mendorong beberapa instansi atau kelompok tertentu untuk mendapatkan suatu informasi terkait isu yang akan dianalisis. \newline
-Opini masyarakat dari twitter inilah yang akan digunakan selanjutnya menjadi data penelitian ini. Data tweet yang kemudian akan diolah menjadi data yang mengandung sentimen. Penelitian ini melakukan analisis terhadap data tweet terkait isu mengenai kementrian dan pendidikan. Data tweet inilah yang akan digunakan sebagai bahan penelitian untuk penilaian, tingkat kepuasan serta evaluasi kinerja pemerintahan khususnya di bidang kementrian dan pendidikan. Isu inilah yang akan menjadi kata kunci pengambilan data yang akan diolah selanjutnya. Pada penelitian Institute for Development of Economics and Finance (Indef) pada tahun 2015, berhasil menjaring 12 juta tweet terkait pemerintahan dan 150 ribu diantaranya memiliki tema pembangunan (Tempo 2015). Banyaknya jumlah tweet terkait pemerintahan khususnya dibidang kementrian dan pendidikan inilah yang mendorong dilakukannya penelitian ini dengan menyertakan kata tersebut tersebut sebagai kata kunci dalam pengumpulan data. \newline
-Untuk dapat mengetahui informasi, data tweet perlu diolah yang selanjutnya dilakukan klasifikasi untuk mengetahui apakah isu tersebut masuk ke dalam sentimen positif, negatif, atau netral. Proses klasifikasi ini dapat dilakukan dengan beberapa metode. Metode klasifikasi yang umumnya digunakan yaitu berbasis peluang dan berbasis vektor. Untuk klasifikasi berbasis peluang metode yang dapat digunakan diantaranya naïve bayes dengan pemodelan bernauli dan multivariant. Sedangkan untuk klasifikasi berbasis vektor, metode yang dapat digunakan diantaranya KNN dan Rocchio. \newline
-Penelitian analisis sentimen sebelumnya juga dilakukan oleh \cite{ADITYAWAN2014} (\cite*{ADITYAWAN2014}) mengenai klasifikasi Naïve Bayes pada pesan twitter menggunakan data seimbang belum menunjukan akurasi yang cukup baik yaitu 66.42\% untuk model Multinomial dan 71.09\% untuk model Bernoulli. Untuk itu pada penelitian ini, akan dilakukan penelitian menggunakan metode yang berbeda, yaitu metode berbasis vektor untuk menganalisis apakah hasil klasifikasi metode berbasis vektor memiliki akurasi yang lebih baik dari berbasis peluang. \newline
-Penelitian ini menggunakan metode klasifikasi Rocchio dengan pendekatan kesamaan (similarity) dan menggunakan tiga kategori sentimen yaitu netral, postif, dan negatif. Metode ini yang kemudian akan digunakan apakah data tweet masuk ke dalam sentimen positif, negatif ,atau netral. Rocchio dengan pendekatan similarity yang digunakan  karena similarity menghitung berdasarkan kedekatan dokumen. Dari sinilah selanjutnya dapat diperoleh kesimpulan data tweet yang ada terkait isu mengenai kementrian dan pendidikan mendapatkan sentimen seperti apa di kalangan masyarakat. 
+Pertumbuhan pengguna internet memberikan dampak langsung terhadap penggunaan media sosial. Asosiasi Penyelenggara Jasa Internet Indonesia (APJII) mengungkapkan jumlah pengguna internet di Indonesia mencapai 88.1 juta orang hingga akhir tahun 2014. Data survei ini menyatakan bahwa ada tiga alasan utama orang Indonesia menggunakan internet. Tiga alasan itu adalah untuk mengakses sarana sosial/komunikasi (72$\%$), sumber informasi harian (65$\%$), dan mengikuti perkembangan jaman (51$\%$). Tiga alasan utama mengakses internet itu dipraktikan melalui empat kegiatan utama, yaitu menggunakan jejaring sosial (87$\%$), mencari informasi (69$\%$), instant messaging (60$\%$) dan mencari berita terbaru (60$\%$).
 
+Twitter merupakan salah satu jejaring sosial yang sering digunakan sebagai alat komunikasi , Twitter juga dimanfaatkan sebagai media untuk promosi, dan kampanye politik. Twitter merupakan jaringan sosial berupa \textit{microlog} serta memiliki karakteristik dan format yang unik dengan simbol ataupun aturan khusus. Disebut \textit{microblog} karena penggunanya hanya dapat mengirim dan membaca pesan blog seperti pada umumnya dengan batas maksimal sejumlah 140 karakter, pesan tersebut dikenal dengan \textit{tweet} (\citeauthor{ZHANG2011} \cite*{ZHANG2011}). Setiap \textit{tweet} yang di posting pengguna beraneka ragam sesuai dengan keinginan pengguna. Postingan itu bisa berupa pendapat, saran, ataupun kritikan tentang topik-topik tertentu. Keanekagaraman postingan tersebut serta banyaknya penggunaan bahasa yang tidak baku pada \textit{tweet} menjadi alasan diperlukan analisis sentimen.
+
+Analisis sentimen dapat disebut juga \textit{opinion mining} yang bertujuan untuk menganalisis, memahami, mengolah, dan mengestrak data tekstual yang berupa opini terhadap entitas seperti organisasi dan topik tertentu agar mendapatkan suatu informasi (\citeauthor{LIU2010} \cite*{LIU2010}). Analisis sentimen juga berfokus pada pengolahan opini yang mengandung polaritas, yaitu memiliki nilai sentimen yang positif ataupun negatif (Novantirani, 2014).Masalah yang ada dalam analisis sentimen biasanya sulit dalam mendefinisikan, menentukan konsep masalah, sub masalah, dan tujuan yang berfungsi sebagai kerangka kinerja dalam berbagai penelitian (\citeauthor{LIU2010} \cite*{LIU2010}).
+
+Metode klasifikasi sentimen dapat digunakan untuk menentukan sentimen dari sebuah tweet. Metode klasifikasi Naïve Bayes classifier dapat dibagi menjadi dua, yaitu \textit{multi-variate Bernoulli} dan \textit{Multinomial Naïve Bayes} (\citeauthor{MANNING2008} \cite*{MANNING2008}). Dalam penelitian ini metode klasifikasi yang digunakan adalah \textit{Multinomial  Naïve Bayes}. \textit{Multinomial Naïve Bayes} digunakan karena proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (\citeauthor{MANNING2008}, \cite*{MANNING2008}). Membuat model klasifikasi diperlukan sebuah training set atau data latih yang akan menghasilkan \textit{term} atau fitur sebagai penciri. Namun tidak semua \textit{term} dapat dijadikan sebagai penciri, sehingga perlu dilakukan seleksi fitur. Tujuan utama dari seleksi fitur adalah efisiensi \textit{term} yang dihasilkan sebagai penciri serta peningkatan akurasi untuk klasifikasi (\citeauthor{MANNING2008} \cite*{MANNING2008}). Seleksi fitur yang digunakan dalam penelitian ini adalah \textit{Mutual Information }(MI). 
+
+Menurut \citeauthor{DIMASTYO2014} (\cite*{DIMASTYO2014}) dalam penelitiannya dalam klasifikasi dokumen \textit{email} dengan menggunakan metode peluang\textit{ Multinomial Naïve Bayes} maka seleksi fitur dengan \textit{supervised feature selection} yaitu MI lebih bagus dalam melakukan klasifikasi dokumen \textit{spam} dibandingkan dengan \textit{unsupervised feature selection} yaitu \textit{Inverse Document Frequency} (IDF). \citeauthor{ADITYAWAN2014} (\cite*{ADITYAWAN2014}) telah melakukan analisis sentimen dengan proses klasifikasi pada \textit{tweet} menjadi 3 sentimen yaitu positif, negatif, dan netral menggunakan data seimbang. Data yang digunakan terdiri atas 8 entitas berbeda dengan masing-masing entitas setiap sentimennya terdiri atas 80-90 data. Hasil akurasi dari klasifikasi data tweet dengan menggunakan metode \textit{Multinomial  Naïve Bayes} adalah 66.42$\%$. Adapun nilai akurasi tiap sentimennya untuk model Multinomial yaitu 58.62$\%$ untuk sentimen positif, 77.42$\%$ untuk sentimen negatif, 64.40$\%$ untuk sentimen netral.
+
+Penelitian ini menggunakan data \textit{tweet} bahasa Indonesia yang akan diklasifikasikan kedalam tiga kelas sentimen positif, negative, dan netral menggunakan seleksi fitur \textit{Mutual Information} dengan menggunakan metode \textit{Multinomial Naïve Bayes}.
 
 % Sub-sub Judul 
-\subsection*{Rumusan Masalah}
-Berdasarkan latar belakang, perumusan masalah dalam penelitian ini adalah: 
+\subsection*{Perumusan Masalah}
+Rumusan malasah dalam penelitian ini adalah:
 \begin{enumerate}[noitemsep] 
-	\item Apakah Rocchio dapat meningkatkan komputasi tanpa mengurangi akurasi?
-	\item Bagaimana metode Rocchio diimplementasikan pada data twitter berbahasa Indonesia?
-	\item Bagaimana perbandingan akurasi metode Rocchio dengan Multinomial naïve bayes ?
+	\item Bagaimana mengklasifikasikan sentimen  pada data Twitter menggunakan seleksi fitur \textit{Mutual Information}(MI) dan \textit{Inverse Document Frequency} dengan metode \textit{Multinomial Naïve Bayes}?
+	\item Apakah seleksi fitur dengan menggunakan MI mampu meningkatkan akurasi jika dibandingkan dengan IDF?
 \end{enumerate}
 
 \subsection*{Tujuan}
-Tujuan penelitian ini adalah: 
+Tujuan dari penelitian ini adalah:
 \begin{enumerate}[noitemsep] 
-	\item Apakah Rocchio dapat meningkatkan komputasi pada proses klasifikasi tanpa mengurangi akurasi?
-	\item Bagaimana metode Rocchio diimplementasikan pada analisis sentimen twitter berbahasa Indonesia?
-	\item Bagaimana perbandingan akurasi hasil klasifikasi metode Rocchio jika dibandingkan dengan nenggunakan Multinomial naïve bayes ?
+	\item Mengklasifikasikan sentimen  pada data tweet menggunakan seleksi fitur MI dan IDF dengan metode \textit{Multinomial Naïve Bayes}.
+	\item Dapat membandingkan hasil akurasi menggunakan seleksi fitur MI dengan IDF.
 \end{enumerate}
 
 \subsection*{Manfaat}
-Penelitian ini diharapkan dapat membantu entitas yang ingin mengetahui isu tertentu dari data Twitter. Penelitian ini juga diharapkan dapat memberikan informasi apakah isu tersebut mengandung sentiment positif, negative, atau netral.
+Manfaat dari penelitian ini adalah:
+\begin{enumerate}[noitemsep] 
+	\item Mengetahui cara mengklasifikasikan sentimen pada data tweet menggunakan seleksi fitur MI dan IDF dengan metode \textit{Multinomial Naïve Bayes} dalam melakukan analisis sentimen.
+	\item Mengetahui hasil akurasi klasifikasi menggunakan seleksi fitur MI dan IDF dengan metode \textit{Multinomial Naïve Bayes} dalam melakukan analisis sentimen.
+\end{enumerate}
+
+\subsection*{Ruang Lingkup}
+Ruang lingkup penelitian adalah:
+\begin{enumerate}[noitemsep] 
+	\item Metode klasifikasi yang digunakan adalah \textit{Multinomial Naive Bayes}.
+	\item Seleksi fitur yang digunakan adalah MI dan IDF.  
+	\item Penelitian ini menggunakan data Twitter dengan kata kunci "kementerian" dan "pendidikan".
+\end{enumerate}
+
