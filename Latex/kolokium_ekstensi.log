@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  16 AUG 2016 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  16 AUG 2016 15:53
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1663,16 +1663,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
-Underfull \vbox (badness 2050) has occurred while \output is active []
-
-
 Overfull \hbox (1.16988pt too wide) in paragraph at lines 15--16
 \OT1/ptm/m/it/10.95 (-20) Na[]ve Bayes\OT1/ptm/m/n/10.95 (-20) . \OT1/ptm/m/it
 /10.95 (-20) Multi-no-mial Na[]ve Bayes \OT1/ptm/m/n/10.95 (-20) di-gu-nakan k
 arena
  []
 
-[1{C:/Users/Aswin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/Aswin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -1739,7 +1739,7 @@ Overfull \hbox (4.32507pt too wide) in paragraph at lines 22--42
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1763,7 +1763,7 @@ thub.com/nette/tokenizer.
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1780,8 +1780,12 @@ ai mekanisme
  []
 
 
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+
+
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1818,7 +1822,7 @@ LaTeX Font Warning: Command \normalsize invalid in math mode on input line 182.
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1878,7 +1882,7 @@ eadaan
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1949,7 +1953,7 @@ h-
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1969,7 +1973,7 @@ n/10.95 (-20) 2011. ``Com-bin-ing Lexicon-based and Learning-
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 23.01001pt.
+ Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1991,7 +1995,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 Here is how much of TeX's memory you used:
  26547 strings out of 493335
  450229 string characters out of 3139260
- 946939 words of memory out of 3000000
+ 946884 words of memory out of 3000000
  29363 multiletter control sequences out of 15000+200000
  73453 words of font info for 283 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
@@ -2008,7 +2012,7 @@ Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppData/Roam
 ing/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 184353 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 183194 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
