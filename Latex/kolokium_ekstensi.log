@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:21
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1708,7 +1708,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
-Underfull \vbox (badness 2717) has occurred while \output is active []
+Overfull \hbox (0.6785pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/10.95 (-20) oleh Twit-ter, Inc yang mem-berikan jaringan sosial be
+rupa
+ []
+
+
+Overfull \hbox (4.66444pt too wide) in paragraph at lines 16--17
+\OT1/ptm/m/n/10.95 (-20) kom-puta-sional dari opini-opini orang, sen-ti-men dan
+ emosi
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1717,18 +1726,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (1.58426pt too wide) in paragraph at lines 21--22
+Overfull \hbox (10.26477pt too wide) in paragraph at lines 18--19
+\OT1/ptm/m/n/10.95 (-20) naive bayes dan hasil-nya me-nun-jukkan pen-ingkatan a
+kurasi
+ []
+
+
+Overfull \hbox (1.58426pt too wide) in paragraph at lines 25--26
 \OT1/ptm/m/n/10.95 (-20) tion Hand-ilng pada anal-i-sis sen-ti-men Twit-ter ber
 ba-
  []
 
 
-Overfull \hbox (23.43042pt too wide) in paragraph at lines 22--23
+Overfull \hbox (23.43042pt too wide) in paragraph at lines 26--27
 []\OT1/ptm/m/n/10.95 (-20) Apakah metode Nega-tion Han-dling da-pat meningkatka
 n
  []
 
-) (metode.tex <gambar/langkahkerja.png, id=22, 391.4625pt x 472.01344pt>
+) (metode.tex <gambar/langkahkerja.png, id=26, 391.4625pt x 472.01344pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
@@ -1991,23 +2006,19 @@ Package rerunfilecheck Info: File `kolokium_ekstensi.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 \openout1 = `kolokium_ekstensi.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27137 strings out of 493335
- 460643 string characters out of 3139260
- 941897 words of memory out of 3000000
- 29901 multiletter control sequences out of 15000+200000
- 77695 words of font info for 300 fonts, out of 3000000 for 9000
+ 27138 strings out of 493335
+ 460657 string characters out of 3139260
+ 942046 words of memory out of 3000000
+ 29905 multiletter control sequences out of 15000+200000
+ 77494 words of font info for 298 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1442s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -2020,9 +2031,9 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
 TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 194492 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 194917 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 187 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)
  52230 words of extra memory for PDF output out of 61914 (max. 10000000)
 
