@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 04:36
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -2012,13 +2012,13 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27138 strings out of 493335
- 460657 string characters out of 3139260
- 942046 words of memory out of 3000000
- 29905 multiletter control sequences out of 15000+200000
+ 27142 strings out of 493335
+ 460759 string characters out of 3139260
+ 942063 words of memory out of 3000000
+ 29908 multiletter control sequences out of 15000+200000
  77494 words of font info for 298 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1448s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -2031,9 +2031,9 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
 TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 194917 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 195443 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  52230 words of extra memory for PDF output out of 61914 (max. 10000000)
 
