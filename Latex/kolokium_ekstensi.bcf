@@ -2103,24 +2103,6 @@
     <bcf:citekey order="3">LIU2012</bcf:citekey>
     <bcf:citekey order="4">LIU2012</bcf:citekey>
     <bcf:citekey order="5">PANG2002</bcf:citekey>
-    <bcf:citekey order="6">MANNING2008</bcf:citekey>
-    <bcf:citekey order="7">MANNING2008</bcf:citekey>
-    <bcf:citekey order="8">NARAYANAN2013</bcf:citekey>
-    <bcf:citekey order="9">NARAYANAN2013</bcf:citekey>
-    <bcf:citekey order="10">NARAYANAN2013</bcf:citekey>
-    <bcf:citekey order="11">NARAYANAN2013</bcf:citekey>
-    <bcf:citekey order="12">MANNING2008</bcf:citekey>
-    <bcf:citekey order="13">MANNING2008</bcf:citekey>
-    <bcf:citekey order="14">MANNING2008</bcf:citekey>
-    <bcf:citekey order="15">MANNING2008</bcf:citekey>
-    <bcf:citekey order="16">MANNING2008</bcf:citekey>
-    <bcf:citekey order="17">MANNING2008</bcf:citekey>
-    <bcf:citekey order="18">MANNING2008</bcf:citekey>
-    <bcf:citekey order="19">MANNING2008</bcf:citekey>
-    <bcf:citekey order="20">ALKHATIB2013</bcf:citekey>
-    <bcf:citekey order="21">ALKHATIB2013</bcf:citekey>
-    <bcf:citekey order="22">MANNING2008</bcf:citekey>
-    <bcf:citekey order="23">MANNING2008</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:36
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -864,10 +864,49 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 (kolokium_layout.tex
-Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-Package hyperref Info: Option `breaklinks' set `true' on input line 22.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 22.
-) (hype_indonesia.tex) (kolokium_information.tex)
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box38
+)
+\tc@llx=\dimen170
+\tc@lly=\dimen171
+\tc@urx=\dimen172
+\tc@ury=\dimen173
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen174
+\adjbox@Height=\dimen175
+\adjbox@Depth=\dimen176
+\adjbox@Totalheight=\dimen177
+
+(C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count135
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box39
+\sift@deathcycles=\count136
+\@vwid@loff=\dimen178
+\@vwid@roff=\dimen179
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `breaklinks' set `true' on input line 23.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 23.
+)
+(hype_indonesia.tex) (kolokium_information.tex)
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks29
@@ -875,29 +914,27 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count135
-\mult@box=\box38
-\multicol@leftmargin=\dimen170
-\c@unbalance=\count136
-\c@collectmore=\count137
-\doublecol@number=\count138
-\multicoltolerance=\count139
-\multicolpretolerance=\count140
-\full@width=\dimen171
-\page@free=\dimen172
-\premulticols=\dimen173
-\postmulticols=\dimen174
+\c@tracingmulticols=\count137
+\mult@box=\box40
+\multicol@leftmargin=\dimen180
+\c@unbalance=\count138
+\c@collectmore=\count139
+\doublecol@number=\count140
+\multicoltolerance=\count141
+\multicolpretolerance=\count142
+\full@width=\dimen181
+\page@free=\dimen182
+\premulticols=\dimen183
+\postmulticols=\dimen184
 \multicolsep=\skip83
 \multicolbaselineskip=\skip84
-\partial@page=\box39
-\last@line=\box40
-\maxbalancingoverflow=\dimen175
-\mult@rightbox=\box41
-\mult@grightbox=\box42
-\mult@gfirstbox=\box43
-\mult@firstbox=\box44
-\@tempa=\box45
-\@tempa=\box46
+\partial@page=\box41
+\last@line=\box42
+\maxbalancingoverflow=\dimen185
+\mult@rightbox=\box43
+\mult@grightbox=\box44
+\mult@gfirstbox=\box45
+\mult@firstbox=\box46
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
@@ -913,17 +950,19 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box59
 \@tempa=\box60
 \@tempa=\box61
-\c@columnbadness=\count141
-\c@finalcolumnbadness=\count142
-\last@try=\dimen176
-\multicolovershoot=\dimen177
-\multicolundershoot=\dimen178
-\mult@nat@firstbox=\box62
-\colbreak@box=\box63
-\mc@col@check@num=\count143
+\@tempa=\box62
+\@tempa=\box63
+\c@columnbadness=\count143
+\c@finalcolumnbadness=\count144
+\last@try=\dimen186
+\multicolovershoot=\dimen187
+\multicolundershoot=\dimen188
+\mult@nat@firstbox=\box64
+\colbreak@box=\box65
+\mc@col@check@num=\count145
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen179
+\bigstrutjot=\dimen189
 )
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
 Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
@@ -934,11 +973,11 @@ and LuaTeX
 )
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count144
+\etb@tempcnta=\count146
 )
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count145
+\lrq@indent=\count147
 
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -946,49 +985,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
 \@xs@message=\write3
-\integerpart=\count146
-\decimalpart=\count147
+\integerpart=\count148
+\decimalpart=\count149
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count148
-\c@listtotal=\count149
-\c@listcount=\count150
-\c@liststart=\count151
-\c@liststop=\count152
-\c@citecount=\count153
-\c@citetotal=\count154
-\c@multicitecount=\count155
-\c@multicitetotal=\count156
-\c@instcount=\count157
-\c@maxnames=\count158
-\c@minnames=\count159
-\c@maxitems=\count160
-\c@minitems=\count161
-\c@citecounter=\count162
-\c@savedcitecounter=\count163
-\c@uniquelist=\count164
-\c@uniquename=\count165
-\c@refsection=\count166
-\c@refsegment=\count167
-\c@maxextratitle=\count168
-\c@maxextratitleyear=\count169
-\c@maxextrayear=\count170
-\c@maxextraalpha=\count171
-\c@abbrvpenalty=\count172
-\c@highnamepenalty=\count173
-\c@lownamepenalty=\count174
-\c@maxparens=\count175
-\c@parenlevel=\count176
-\blx@tempcnta=\count177
-\blx@tempcntb=\count178
-\blx@tempcntc=\count179
-\blx@maxsection=\count180
-\blx@maxsegment@0=\count181
-\blx@notetype=\count182
-\blx@parenlevel@text=\count183
-\blx@parenlevel@foot=\count184
-\blx@sectionciteorder@0=\count185
+\c@tabx@nest=\count150
+\c@listtotal=\count151
+\c@listcount=\count152
+\c@liststart=\count153
+\c@liststop=\count154
+\c@citecount=\count155
+\c@citetotal=\count156
+\c@multicitecount=\count157
+\c@multicitetotal=\count158
+\c@instcount=\count159
+\c@maxnames=\count160
+\c@minnames=\count161
+\c@maxitems=\count162
+\c@minitems=\count163
+\c@citecounter=\count164
+\c@savedcitecounter=\count165
+\c@uniquelist=\count166
+\c@uniquename=\count167
+\c@refsection=\count168
+\c@refsegment=\count169
+\c@maxextratitle=\count170
+\c@maxextratitleyear=\count171
+\c@maxextrayear=\count172
+\c@maxextraalpha=\count173
+\c@abbrvpenalty=\count174
+\c@highnamepenalty=\count175
+\c@lownamepenalty=\count176
+\c@maxparens=\count177
+\c@parenlevel=\count178
+\blx@tempcnta=\count179
+\blx@tempcntb=\count180
+\blx@tempcntc=\count181
+\blx@maxsection=\count182
+\blx@maxsegment@0=\count183
+\blx@notetype=\count184
+\blx@parenlevel@text=\count185
+\blx@parenlevel@foot=\count186
+\blx@sectionciteorder@0=\count187
 \labelnumberwidth=\skip85
 \labelalphawidth=\skip86
 \biblabelsep=\skip87
@@ -999,9 +1038,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip92
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count186
-\c@maxcomprange=\count187
-\c@mincompwidth=\count188
+\c@mincomprange=\count188
+\c@maxcomprange=\count189
+\c@mincompwidth=\count190
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1010,72 +1049,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count189
-\c@savedafterword=\count190
-\c@annotator=\count191
-\c@savedannotator=\count192
-\c@author=\count193
-\c@savedauthor=\count194
-\c@bookauthor=\count195
-\c@savedbookauthor=\count196
-\c@commentator=\count197
-\c@savedcommentator=\count198
-\c@editor=\count199
-\c@savededitor=\count266
-\c@editora=\count267
-\c@savededitora=\count268
-\c@editorb=\count269
-\c@savededitorb=\count270
-\c@editorc=\count271
-\c@savededitorc=\count272
-\c@foreword=\count273
-\c@savedforeword=\count274
-\c@holder=\count275
-\c@savedholder=\count276
-\c@introduction=\count277
-\c@savedintroduction=\count278
-\c@namea=\count279
-\c@savednamea=\count280
-\c@nameb=\count281
-\c@savednameb=\count282
-\c@namec=\count283
-\c@savednamec=\count284
-\c@translator=\count285
-\c@savedtranslator=\count286
-\c@shortauthor=\count287
-\c@savedshortauthor=\count288
-\c@shorteditor=\count289
-\c@savedshorteditor=\count290
-\c@labelname=\count291
-\c@savedlabelname=\count292
-\c@institution=\count293
-\c@savedinstitution=\count294
-\c@lista=\count295
-\c@savedlista=\count296
-\c@listb=\count297
-\c@savedlistb=\count298
-\c@listc=\count299
-\c@savedlistc=\count300
-\c@listd=\count301
-\c@savedlistd=\count302
-\c@liste=\count303
-\c@savedliste=\count304
-\c@listf=\count305
-\c@savedlistf=\count306
-\c@location=\count307
-\c@savedlocation=\count308
-\c@organization=\count309
-\c@savedorganization=\count310
-\c@origlocation=\count311
-\c@savedoriglocation=\count312
-\c@origpublisher=\count313
-\c@savedorigpublisher=\count314
-\c@publisher=\count315
-\c@savedpublisher=\count316
-\c@language=\count317
-\c@savedlanguage=\count318
-\c@pageref=\count319
-\c@savedpageref=\count320
+\c@afterword=\count191
+\c@savedafterword=\count192
+\c@annotator=\count193
+\c@savedannotator=\count194
+\c@author=\count195
+\c@savedauthor=\count196
+\c@bookauthor=\count197
+\c@savedbookauthor=\count198
+\c@commentator=\count199
+\c@savedcommentator=\count266
+\c@editor=\count267
+\c@savededitor=\count268
+\c@editora=\count269
+\c@savededitora=\count270
+\c@editorb=\count271
+\c@savededitorb=\count272
+\c@editorc=\count273
+\c@savededitorc=\count274
+\c@foreword=\count275
+\c@savedforeword=\count276
+\c@holder=\count277
+\c@savedholder=\count278
+\c@introduction=\count279
+\c@savedintroduction=\count280
+\c@namea=\count281
+\c@savednamea=\count282
+\c@nameb=\count283
+\c@savednameb=\count284
+\c@namec=\count285
+\c@savednamec=\count286
+\c@translator=\count287
+\c@savedtranslator=\count288
+\c@shortauthor=\count289
+\c@savedshortauthor=\count290
+\c@shorteditor=\count291
+\c@savedshorteditor=\count292
+\c@labelname=\count293
+\c@savedlabelname=\count294
+\c@institution=\count295
+\c@savedinstitution=\count296
+\c@lista=\count297
+\c@savedlista=\count298
+\c@listb=\count299
+\c@savedlistb=\count300
+\c@listc=\count301
+\c@savedlistc=\count302
+\c@listd=\count303
+\c@savedlistd=\count304
+\c@liste=\count305
+\c@savedliste=\count306
+\c@listf=\count307
+\c@savedlistf=\count308
+\c@location=\count309
+\c@savedlocation=\count310
+\c@organization=\count311
+\c@savedorganization=\count312
+\c@origlocation=\count313
+\c@savedoriglocation=\count314
+\c@origpublisher=\count315
+\c@savedorigpublisher=\count316
+\c@publisher=\count317
+\c@savedpublisher=\count318
+\c@language=\count319
+\c@savedlanguage=\count320
+\c@pageref=\count321
+\c@savedpageref=\count322
 \shorthandwidth=\skip93
 \shortjournalwidth=\skip94
 \shortserieswidth=\skip95
@@ -1093,13 +1132,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
 File: biblatex.def 2016/05/14 v3.4 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count321
-\c@textcitetotal=\count322
-\c@textcitemaxnames=\count323
-\c@biburlnumpenalty=\count324
-\c@biburlucpenalty=\count325
-\c@biburllcpenalty=\count326
-\c@smartand=\count327
+\c@textcitecount=\count323
+\c@textcitetotal=\count324
+\c@textcitemaxnames=\count325
+\c@biburlnumpenalty=\count326
+\c@biburlucpenalty=\count327
+\c@biburllcpenalty=\count328
+\c@smartand=\count329
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1112,8 +1151,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
 File: standard.bbx 2016/05/14 v3.4 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count328
-\c@bbx:relatedtotal=\count329
+\c@bbx:relatedcount=\count330
+\c@bbx:relatedtotal=\count331
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1147,31 +1186,31 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count330
-\l_tmpa_int=\count331
-\l_tmpb_int=\count332
-\g_tmpa_int=\count333
-\g_tmpb_int=\count334
+\c_max_int=\count332
+\l_tmpa_int=\count333
+\l_tmpb_int=\count334
+\g_tmpa_int=\count335
+\g_tmpb_int=\count336
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count335
+\g__prg_map_int=\count337
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count336
-\l__iow_target_count_int=\count337
-\l__iow_current_line_int=\count338
-\l__iow_current_word_int=\count339
-\l__iow_current_indentation_int=\count340
+\l_iow_line_count_int=\count338
+\l__iow_target_count_int=\count339
+\l__iow_current_line_int=\count340
+\l__iow_current_word_int=\count341
+\l__iow_current_indentation_int=\count342
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen180
-\c_max_dim=\dimen181
-\l_tmpa_dim=\dimen182
-\l_tmpb_dim=\dimen183
-\g_tmpa_dim=\dimen184
-\g_tmpb_dim=\dimen185
+\c_zero_dim=\dimen190
+\c_max_dim=\dimen191
+\l_tmpa_dim=\dimen192
+\l_tmpb_dim=\dimen193
+\g_tmpa_dim=\dimen194
+\g_tmpb_dim=\dimen195
 \c_zero_skip=\skip99
 \c_max_skip=\skip100
 \l_tmpa_skip=\skip101
@@ -1185,80 +1224,80 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count341
-\l_keys_choice_int=\count342
+\g__keyval_level_int=\count343
+\l_keys_choice_int=\count344
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count343
-\c__fp_middle_shift_int=\count344
-\c__fp_trailing_shift_int=\count345
-\c__fp_big_leading_shift_int=\count346
-\c__fp_big_middle_shift_int=\count347
-\c__fp_big_trailing_shift_int=\count348
-\c__fp_Bigg_leading_shift_int=\count349
-\c__fp_Bigg_middle_shift_int=\count350
-\c__fp_Bigg_trailing_shift_int=\count351
+\c__fp_leading_shift_int=\count345
+\c__fp_middle_shift_int=\count346
+\c__fp_trailing_shift_int=\count347
+\c__fp_big_leading_shift_int=\count348
+\c__fp_big_middle_shift_int=\count349
+\c__fp_big_trailing_shift_int=\count350
+\c__fp_Bigg_leading_shift_int=\count351
+\c__fp_Bigg_middle_shift_int=\count352
+\c__fp_Bigg_trailing_shift_int=\count353
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box64
-\l_tmpa_box=\box65
-\l_tmpb_box=\box66
-\g_tmpa_box=\box67
-\g_tmpb_box=\box68
+\c_empty_box=\box66
+\l_tmpa_box=\box67
+\l_tmpb_box=\box68
+\g_tmpa_box=\box69
+\g_tmpb_box=\box70
 L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
-\l__coffin_internal_box=\box69
-\l__coffin_internal_dim=\dimen186
-\l__coffin_offset_x_dim=\dimen187
-\l__coffin_offset_y_dim=\dimen188
-\l__coffin_x_dim=\dimen189
-\l__coffin_y_dim=\dimen190
-\l__coffin_x_prime_dim=\dimen191
-\l__coffin_y_prime_dim=\dimen192
-\c_empty_coffin=\box70
-\l__coffin_aligned_coffin=\box71
-\l__coffin_aligned_internal_coffin=\box72
-\l_tmpa_coffin=\box73
-\l_tmpb_coffin=\box74
-\l__coffin_display_coffin=\box75
-\l__coffin_display_coord_coffin=\box76
-\l__coffin_display_pole_coffin=\box77
-\l__coffin_display_offset_dim=\dimen193
-\l__coffin_display_x_dim=\dimen194
-\l__coffin_display_y_dim=\dimen195
+\l__coffin_internal_box=\box71
+\l__coffin_internal_dim=\dimen196
+\l__coffin_offset_x_dim=\dimen197
+\l__coffin_offset_y_dim=\dimen198
+\l__coffin_x_dim=\dimen199
+\l__coffin_y_dim=\dimen256
+\l__coffin_x_prime_dim=\dimen257
+\l__coffin_y_prime_dim=\dimen258
+\c_empty_coffin=\box72
+\l__coffin_aligned_coffin=\box73
+\l__coffin_aligned_internal_coffin=\box74
+\l_tmpa_coffin=\box75
+\l_tmpb_coffin=\box76
+\l__coffin_display_coffin=\box77
+\l__coffin_display_coord_coffin=\box78
+\l__coffin_display_pole_coffin=\box79
+\l__coffin_display_offset_dim=\dimen259
+\l__coffin_display_x_dim=\dimen260
+\l__coffin_display_y_dim=\dimen261
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen196
-\l__box_bottom_dim=\dimen197
-\l__box_left_dim=\dimen198
-\l__box_right_dim=\dimen199
-\l__box_top_new_dim=\dimen256
-\l__box_bottom_new_dim=\dimen257
-\l__box_left_new_dim=\dimen258
-\l__box_right_new_dim=\dimen259
-\l__box_internal_box=\box78
-\l__coffin_bounding_shift_dim=\dimen260
-\l__coffin_left_corner_dim=\dimen261
-\l__coffin_right_corner_dim=\dimen262
-\l__coffin_bottom_corner_dim=\dimen263
-\l__coffin_top_corner_dim=\dimen264
-\l__coffin_scaled_total_height_dim=\dimen265
-\l__coffin_scaled_width_dim=\dimen266
+\l__box_top_dim=\dimen262
+\l__box_bottom_dim=\dimen263
+\l__box_left_dim=\dimen264
+\l__box_right_dim=\dimen265
+\l__box_top_new_dim=\dimen266
+\l__box_bottom_new_dim=\dimen267
+\l__box_left_new_dim=\dimen268
+\l__box_right_new_dim=\dimen269
+\l__box_internal_box=\box80
+\l__coffin_bounding_shift_dim=\dimen270
+\l__coffin_left_corner_dim=\dimen271
+\l__coffin_right_corner_dim=\dimen272
+\l__coffin_bottom_corner_dim=\dimen273
+\l__coffin_top_corner_dim=\dimen274
+\l__coffin_scaled_total_height_dim=\dimen275
+\l__coffin_scaled_width_dim=\dimen276
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count352
-\l__driver_tmp_box=\box79
+\l__driver_color_stack_int=\count354
+\l__driver_tmp_box=\box81
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.s
 ty
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count353
-\l__xparse_m_args_int=\count354
-\l__xparse_mandatory_args_int=\count355
-\l__xparse_processor_int=\count356
-\l__xparse_v_nesting_int=\count357
+\l__xparse_current_arg_int=\count355
+\l__xparse_m_args_int=\count356
+\l__xparse_mandatory_args_int=\count357
+\l__xparse_processor_int=\count358
+\l__xparse_v_nesting_int=\count359
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1451,8 +1490,8 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count358
-\@quotereset=\count359
+\@quotelevel=\count360
+\@quotereset=\count361
 (kolokium_ekstensi.aux)
 \openout1 = `kolokium_ekstensi.aux'.
 
@@ -1475,7 +1514,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 121.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-\AtBeginShipoutBox=\box80
+\AtBeginShipoutBox=\box82
 Package hyperref Info: Link coloring ON on input line 121.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1483,7 +1522,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count360
+\c@section@level=\count362
 )
 LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
@@ -1496,16 +1535,16 @@ LaTeX Info: Redefining \nameref on input line 121.
 
 (C:\Users\Aswin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen267
-\scratchbox=\box81
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\scratchcounter=\count363
+\scratchdimen=\dimen277
+\scratchbox=\box83
+\nofMPsegments=\count364
+\nofMParguments=\count365
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen268
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen278
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
 \everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1710,34 +1749,22 @@ Overfull \hbox (23.43042pt too wide) in paragraph at lines 22--23
 n
  []
 
-) (metode.tex
-Overfull \hbox (0.29587pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/10.95 (-20) seperti pada Gam-bar 1. Tahap per-tama adalah pengumpu
--
- []
-
-<gambar/langkahkerja.png, id=15, 391.4625pt x 472.01344pt>
+) (metode.tex <gambar/langkahkerja.png, id=16, 391.4625pt x 472.01344pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
-Package pdftex.def Info: gambar/langkahkerja.png used on input line 10.
+Package pdftex.def Info: gambar/langkahkerja.png used on input line 11.
 (pdftex.def)             Requested size: 200.0pt x 241.1558pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 11.
-
-Overfull \hbox (23.83582pt too wide) in paragraph at lines 17--18
-\OT1/ptm/m/n/10.95 (-20) tahap akui-sisi data \OT1/ptm/m/it/10.95 (-20) tweet\O
-T1/ptm/m/n/10.95 (-20) , data diper-oleh dari tags.hawksey.info.
- []
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 12.
 
 
-Overfull \hbox (4.32507pt too wide) in paragraph at lines 22--42
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.32507pt too wide) in paragraph at lines 23--43
  [][] 
  []
-
-
-Underfull \vbox (badness 1400) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1746,31 +1773,19 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./gambar/langkahkerja.png>]
-Overfull \hbox (5.88782pt too wide) in paragraph at lines 51--52
-\OT1/ptm/m/n/10.95 (-20) Tokenisasi adalah proses pe-mo-ton-gan teks men-jadi b
-agian-
+Overfull \hbox (1.62538pt too wide) in paragraph at lines 69--71
+[]\OT1/ptm/m/n/10.95 (-20) Proses mem-o-tong doku-men atau kata men-jadi bagian
+-
  []
 
 
-Overfull \hbox (3.0889pt too wide) in paragraph at lines 68--69
-[]\OT1/ptm/m/n/10.95 (-20) Pada peneli-tian ini to-kenisasi di-lakukan de-ngan 
-meng-
- []
-
-
-Overfull \hbox (77.74084pt too wide) in paragraph at lines 68--69
-\OT1/ptm/m/n/10.95 (-20) gu-nakan kode dari Nette yang ter-da-pat di https://gi
-thub.com/nette/tokenizer. 
- []
-
-
-Overfull \hbox (0.44302pt too wide) in paragraph at lines 83--85
+Overfull \hbox (0.44302pt too wide) in paragraph at lines 85--87
 \OT1/ptm/m/it/10.95 (-20) stem-ming\OT1/ptm/m/n/10.95 (-20) , op-erasi ini bert
 u-juan men-e-mukan su-atu kelom-
  []
 
 
-Overfull \hbox (19.33968pt too wide) in paragraph at lines 88--90
+Overfull \hbox (19.33968pt too wide) in paragraph at lines 90--92
 \OT1/ptm/m/n/10.95 (-20) da-pat diek-spor dari ko-r-pus dan di-gu-nakan se-ba-g
 ai mekanisme
  []
@@ -1783,17 +1798,27 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
 
 [3]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 125.
+LaTeX Warning: Reference `eq:persamaanidf' on page 4 undefined on input line 12
+3.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 125.
+Overfull \hbox (9.18733pt too wide) in paragraph at lines 133--134
+\OT1/ptm/m/n/10.95 (-20) MI me-nun-jukan se-ber-apa be-sar in-for-masi ada atau
+ tidaknya
+ []
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 142.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 142.
 
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 137.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 154.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 137.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 154.
 
 
 
@@ -1804,40 +1829,25 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
 
 [4]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 151.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 169.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 151.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 169.
 
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 182.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 182.
-
-
-
-Overfull \hbox (0.77pt too wide) in paragraph at lines 189--190
-\OT1/ptm/m/n/10.95 (-20) dan model Bernoulli di-gu-nakan karena proses yang sed
-er-
+Overfull \hbox (0.41556pt too wide) in paragraph at lines 193--197
+\OT1/ptm/m/n/10.95 (-20) tribusi meningkatkan akurasi klasi-fikasi se-cara sig-
+nifikan.
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 197.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 197.
-
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 208.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 208.
-
+Overfull \hbox (10.86179pt too wide) in paragraph at lines 214--215
+\OT1/ptm/m/n/10.95 (-20) Klasifikasi pada anal-i-sis sen-ti-men bertu-juan un-t
+uk mengkat-
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1847,51 +1857,48 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
 
 [5]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 221.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 222.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 221.
-
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 232.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 232.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 222.
 
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 243.
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 243.
-
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 256.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 256.
-
-
-
-Overfull \hbox (7.09709pt too wide) in paragraph at lines 261--262
-\OT1/ptm/m/n/10.95 (-20) seder-hana dan mu-dah di-ap-likasikan pada berba-gai k
-eadaan
  []
 
 
-Overfull \hbox (0.3051pt too wide) in paragraph at lines 265--266
-\OT1/ptm/m/n/10.95 (-20) klasi-fikasi data meng-gu-nakan metode Multi-no-mial N
-a[]ve
+Overfull \hbox (2.4097pt too wide) in paragraph at lines 227--229
+\OT1/ptm/m/n/10.95 (-20) dan tidak ada term (kata-kata) dalam doku-men. Frekuen
+si
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 277.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 245.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 277.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 245.
 
+
+
+Overfull \hbox (6.06847pt too wide) in paragraph at lines 248--250
+\OT1/ptm/m/n/10.95 (-20) klasifikasi se-hinggga ni-lai P(tk|c) yang di-hasilkan
+ adalah
+ []
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 257.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 257.
+
+
+
+Overfull \hbox (7.92328pt too wide) in paragraph at lines 263--266
+\OT1/ptm/m/n/10.95 (-20) Tahap eval-u-asi di-lakukan un-tuk menge-tahui tingkat
+ akurasi
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1900,50 +1907,35 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 290.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 290.
-
-
-
-Overfull \hbox (23.7598pt too wide) in paragraph at lines 298--306
- [][] 
+Overfull \hbox (23.7598pt too wide) in paragraph at lines 303--305
+ [] 
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 319.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 316.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 319.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 316.
 
 
 
-Overfull \hbox (1.86023pt too wide) in paragraph at lines 323--324
+Overfull \hbox (1.86023pt too wide) in paragraph at lines 320--321
 \OT1/ptm/m/n/10.95 (-20) sis juga dini-lai dari akurasinya, un-tuk menghi-tung 
 akurasi
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 331.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 328.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 331.
-
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 345.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 345.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 328.
 
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 358.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 353.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 358.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 353.
 
 
 )
@@ -1973,13 +1965,6 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-
-Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (kolokium_ekstensi.aux)
@@ -2002,28 +1987,28 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 26511 strings out of 493335
- 449898 string characters out of 3139260
- 945137 words of memory out of 3000000
- 29355 multiletter control sequences out of 15000+200000
- 73116 words of font info for 268 fonts, out of 3000000 for 9000
+ 27043 strings out of 493335
+ 459009 string characters out of 3139260
+ 939822 words of memory out of 3000000
+ 29842 multiletter control sequences out of 15000+200000
+ 74277 words of font info for 282 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
- 60i,12n,94p,10423b,1439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helv
-etic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 186596 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/u
+hvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on kolokium_ekstensi.pdf (7 pages, 175795 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  47622 words of extra memory for PDF output out of 51595 (max. 10000000)
 
