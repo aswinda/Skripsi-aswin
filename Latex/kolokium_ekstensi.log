@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:01
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1930,10 +1930,32 @@ Overfull \hbox (1.91895pt too wide) in paragraph at lines 148--148
 h-
  []
 
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Overfull \hbox (4.09274pt too wide) in paragraph at lines 148--148
 \OT1/ptm/m/n/10.95 (-20) Fungsi Klasi-fikasi Multi-no-mial Na[]ve Bayes''. Skr
 ipsi.
+ []
+
+
+Overfull \hbox (3.30516pt too wide) in paragraph at lines 148--148
+\OT1/ptm/m/n/10.95 (-20) ``Com-bin-ing Lex-i-con and Learn-ing Based Ap-proache
+s
+ []
+
+
+Overfull \hbox (8.19322pt too wide) in paragraph at lines 148--148
+\OT1/ptm/m/n/10.95 (-20) 4503-1543-2. \OT1/ptm/m/sc/10.95 (-20) doi\OT1/ptm/m/n
+/10.95 (-20) : [][]$\OT1/pcr/m/n/10.95 10 . 1145 / 2346676 . 2346681$[][]\OT1/p
+tm/m/n/10.95 (-20) . 
  []
 
 
@@ -1943,6 +1965,12 @@ n/10.95 (-20) 2011. ``Com-bin-ing Lexicon-based and Learning-
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (11.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1950,7 +1978,9 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[8
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (kolokium_ekstensi.aux)
@@ -1973,28 +2003,28 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27071 strings out of 493335
- 459378 string characters out of 3139260
- 939825 words of memory out of 3000000
- 29851 multiletter control sequences out of 15000+200000
- 76847 words of font info for 294 fonts, out of 3000000 for 9000
+ 27125 strings out of 493335
+ 460364 string characters out of 3139260
+ 940859 words of memory out of 3000000
+ 29894 multiletter control sequences out of 15000+200000
+ 77494 words of font info for 298 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1437s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/u
-hvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/
-AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on kolokium_ekstensi.pdf (7 pages, 175896 bytes).
+urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
+/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Aswin/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on kolokium_ekstensi.pdf (8 pages, 187994 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 51718 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 52230 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -76,6 +76,58 @@
       \field{title}{Stock Price Prediction Using k-Nearest Neighbor (kNN) Algorithm}
       \field{year}{2013}
     \endentry
+    \entry{AnwarHridoy2015}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=9cd95a9294c4c55657e73c54ab6b6b5c}{%
+           family={Anwar\bibnamedelima Hridoy},
+           family_i={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Syed\bibnamedelima Akib},
+           given_i={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=4c73855f4408f30b0230d8c7de5736b2}{%
+           family={Ekram},
+           family_i={E\bibinitperiod},
+           given={Tahmid\bibnamedelima M.},
+           given_i={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=23c5e3a1450ad162611c124ba48bb9fc}{%
+           family={Islam},
+           family_i={I\bibinitperiod},
+           given={Mohammad\bibnamedelima Samiul},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=277442caf69f201bb8eb75476f8d87e9}{%
+           family={Ahmed},
+           family_i={A\bibinitperiod},
+           given={Faysal},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=49ae6ecaf55775e458931523ef4d59d2}{%
+           family={Rahman},
+           family_i={R\bibinitperiod},
+           given={Rashedur\bibnamedelima M.},
+           given_i={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7913322fde665fa32bde7d2e7cacbf2b}
+      \strng{fullhash}{31cedddd8400a748a936a9946af390d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analysis of public information from social media could yield interesting results and insights into the world of public opinions about almost any product, service or personality. Social network data is one of the most effective and accurate indicators of public sentiment. In this paper we have discussed a methodology which allows utilization and interpretation of twitter data to determine public opinions. Analysis was done on tweets about the iPhone 6. Feature specific popularities and male--female specific analysis has been included. Mixed opinions were found but general consistency with outside reviews and comments was observed.}
+      \field{issn}{2193-8636}
+      \field{journaltitle}{Decision Analytics}
+      \field{number}{1}
+      \field{title}{Localized twitter opinion mining using sentiment analysis}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1186/s40165-015-0016-4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1186/s40165-015-0016-4
+      \endverb
+    \endentry
     \entry{AZIZ2013}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8bcee6b78d22e457a0379ddc8dec4f9d}{%
@@ -175,6 +227,53 @@
       \field{labeltitlesource}{title}
       \field{title}{An Introduction to Information	Retrieval}
       \field{year}{2008}
+    \endentry
+    \entry{Mudinas:2012:CLL:2346676.2346681}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=796c91593fcc3b87de02d73ad6760d1f}{%
+           family={Mudinas},
+           family_i={M\bibinitperiod},
+           given={Andrius},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=0e288a0b938246b15ffc7b73e4b5d5d2}{%
+           family={Zhang},
+           family_i={Z\bibinitperiod},
+           given={Dell},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=f3b5332cc1a10263045a866f7e513e46}{%
+           family={Levene},
+           family_i={L\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Beijing, China}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{56168ee2542f08d06e5fb6d07ebcffc0}
+      \strng{fullhash}{ae9233d4a9432f2e2297ba30dae3e199}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the First International Workshop on Issues of Sentiment Discovery and Opinion Mining}
+      \field{isbn}{978-1-4503-1543-2}
+      \field{series}{WISDOM '12}
+      \field{title}{Combining Lexicon and Learning Based Approaches for Concept-level Sentiment Analysis}
+      \field{year}{2012}
+      \field{pages}{5:1\bibrangedash 5:8}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/2346676.2346681
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2346676.2346681
+      \endverb
+      \keyw{natural language processing,opinion mining,sentiment analysis,supervised learning}
     \endentry
     \entry{NARAYANAN2013}{thesis}{}
       \name{author}{3}{}{%
