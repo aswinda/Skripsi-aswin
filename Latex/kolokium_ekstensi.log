@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 04:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 04:58
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1708,13 +1708,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
-Overfull \hbox (0.6785pt too wide) in paragraph at lines 12--13
+Overfull \hbox (0.6785pt too wide) in paragraph at lines 13--14
 \OT1/ptm/m/n/10.95 (-20) oleh Twit-ter, Inc yang mem-berikan jaringan sosial be
 rupa
  []
 
 
-Overfull \hbox (4.66444pt too wide) in paragraph at lines 16--17
+Overfull \hbox (4.66444pt too wide) in paragraph at lines 17--18
 \OT1/ptm/m/n/10.95 (-20) kom-puta-sional dari opini-opini orang, sen-ti-men dan
  emosi
  []
@@ -1726,24 +1726,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (10.26477pt too wide) in paragraph at lines 18--19
-\OT1/ptm/m/n/10.95 (-20) naive bayes dan hasil-nya me-nun-jukkan pen-ingkatan a
-kurasi
+Overfull \hbox (2.18526pt too wide) in paragraph at lines 26--27
+\OT1/ptm/m/it/10.95 (-20) tion Han-dling \OT1/ptm/m/n/10.95 (-20) pada anal-i-s
+is sen-ti-men Twit-ter berba-
  []
 
-
-Overfull \hbox (1.58426pt too wide) in paragraph at lines 25--26
-\OT1/ptm/m/n/10.95 (-20) tion Hand-ilng pada anal-i-sis sen-ti-men Twit-ter ber
-ba-
- []
-
-
-Overfull \hbox (23.43042pt too wide) in paragraph at lines 26--27
-[]\OT1/ptm/m/n/10.95 (-20) Apakah metode Nega-tion Han-dling da-pat meningkatka
-n
- []
-
-) (metode.tex <gambar/langkahkerja.png, id=26, 391.4625pt x 472.01344pt>
+) (metode.tex <gambar/langkahkerja.png, id=29, 391.4625pt x 472.01344pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
@@ -1833,8 +1821,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 
 Overfull \hbox (0.41556pt too wide) in paragraph at lines 193--197
-\OT1/ptm/m/n/10.95 (-20) tribusi meningkatkan akurasi klasi-fikasi se-cara sig-
-nifikan.
+\OT1/ptm/m/n/10.95 (-20) tribusi me-ning-kat-kan akurasi klasi-fikasi se-cara s
+ig-nifikan.
  []
 
 
@@ -2012,13 +2000,13 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27142 strings out of 493335
- 460759 string characters out of 3139260
- 942063 words of memory out of 3000000
- 29908 multiletter control sequences out of 15000+200000
- 77494 words of font info for 298 fonts, out of 3000000 for 9000
- 1217 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27171 strings out of 493335
+ 461290 string characters out of 3139260
+ 942240 words of memory out of 3000000
+ 29922 multiletter control sequences out of 15000+200000
+ 78298 words of font info for 306 fonts, out of 3000000 for 9000
+ 1218 hyphenation exceptions out of 8191
+ 60i,13n,94p,10423b,1454s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -2031,9 +2019,9 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
 TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 195443 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 197308 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  52230 words of extra memory for PDF output out of 61914 (max. 10000000)
 

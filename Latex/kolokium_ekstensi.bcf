@@ -2106,6 +2106,12 @@
     <bcf:citekey order="6">LIU2012</bcf:citekey>
     <bcf:citekey order="7">Pang+Lee+Vaithyanathan:02a</bcf:citekey>
     <bcf:citekey order="8">Pang+Lee+Vaithyanathan:02a</bcf:citekey>
+    <bcf:citekey order="9">key:article</bcf:citekey>
+    <bcf:citekey order="10">cogprints6708</bcf:citekey>
+    <bcf:citekey order="11">cogprints6708</bcf:citekey>
+    <bcf:citekey order="12">MANNING2008</bcf:citekey>
+    <bcf:citekey order="13">NARAYANAN2013</bcf:citekey>
+    <bcf:citekey order="14">NARAYANAN2013</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">

@@ -7,31 +7,33 @@
 % Sub-sub Judul 
 \subsection*{Latar Belakang}
 
+
 \textit{Microblogging} saat ini telah menjadi alat komunikasi yang sangat populer di kalangan pengguna internet. Jutaan penggunanya membagikan opini mereka tentang bebagai macam aspek dari kehidupan mereka ataupun membahas isu-isu saat ini. Oleh karena itu \textit{microblogging} merupakan sumber data yang sangat kaya untuk melakukan \textit{opinion mining} dan analisis sentimen \citeauthor{PAK10.385} (\cite*{PAK10.385}). Berbagai macam perusahaan sering menggunakan survey online atau dengan kertas untuk mengumpulkan opini dari penggunanya. Namun dengan kemunculan sosial media, orang cenderung lebih memilih mengutarakan pendapatnya melalui facebook, twitter atau sosial media yang lainnya (\cite{AnwarHridoy2015}).
 
-Salah satu situs microblogging yang populer adalah Twitter. Twitter merupakan situs web yang dioperasikan oleh Twitter, Inc yang memberikan jaringan sosial berupa microblog serta memiliki karakteristik dan format yang unik dengan simbol ataupun aturan khusus. Disebut microblog karena penggunanya hanya dapat mengirim dan membaca pesan blog seperti pada umumnya dengan batas maksimal sejumlah 140 karakter, pesan tersebut dikenal dengan tweet (\cite{ZHANG2011}). Twitter digunakan dalam penelitian ini karena sifat dari semua tweetnya bersifat publik. Berbeda dengan sosial media lain seperti facebook yang karakteristik dari \textit{post} nya dapat dirubah menjadi privat atau hanya di lingkaran teman nya saja.
+Salah satu situs \textit{microblogging} yang populer adalah Twitter. Twitter merupakan situs web yang dioperasikan oleh Twitter, Inc yang memberikan jaringan sosial berupa \textit{microblog} serta memiliki karakteristik dan format yang unik dengan simbol ataupun aturan khusus. Disebut \textit{microblog} karena penggunanya hanya dapat mengirim dan membaca pesan \textit{blog} seperti pada umumnya dengan batas maksimal sejumlah 140 karakter, pesan tersebut dikenal dengan tweet (\cite{ZHANG2011}). Twitter digunakan dalam penelitian ini karena sifat dari semua tweetnya bersifat publik. Berbeda dengan sosial media lain seperti facebook yang karakteristik dari \textit{post} nya dapat dirubah menjadi privat atau hanya di lingkaran teman nya saja.
 
 Kementrian Komunikasi dan Informatika Indonesia menyampaikan bahwa Indonesia menempati peringkat ke lima terbesar di dunia dari jumlah penggunanya, dan berdasarkan data dari PT Bakrie yang disampaikan oleh kominfo, Indonesia memiliki 19,5 juta pengguna. Data ini menjadi dasar untuk dilakukannya penelitian pada Twitter berbahasa Indonesia. Pada penelitian Institute for Development of Economics and Finance (Indef) pada tahun 2015, berhasil menjaring 12 juta tweet terkait pemerintahan dan 150 ribu diantaranya memiliki tema pembangunan (Tempo 2015). Banyaknya jumlah tweet terkait pemerintahan khususnya dibidang kementrian dan pendidikan inilah yang mendorong dilakukannya penelitian ini dengan menyertakan kata tersebut tersebut sebagai kata kunci dalam pengumpulan data.
 
-Sentimen analisis atau \textit{opinion} mining adalah studi komputasional dari opini-opini orang, sentimen dan emosi melalui entitas dan atribut yang dimiliki yang diekspresikan dalam bentuk teks \citeauthor{LIU2012} (\cite*{LIU2012}). Analisis sentimen akan mengelompokkan polaritas dari teks yang ada dalam kalimat atau dokumen untuk mengetahui pendapat yang dikemukakan dalam kalimat atau dokumen tersebut apakah bersifat positif, negatif atau netral \cite{Pang+Lee+Vaithyanathan:02a} (\cite*{Pang+Lee+Vaithyanathan:02a}). Salah satu teknik pembelajaran mesin untuk analisis sentimen adalah Naïve Bayes classifier (NBC). NBC merupakan teknik pembelajaran mesin yang berbasis probabilistik. NBC adalah metode sederhana tetapi memiliki akurasi serta performansi yang tinggi dalam pengklasifikasian teks Routray (2013). Xhemali (2010) melakukan perbandingan antara tiga metode. Metode-metode tersebut adalah Naïve Bayes, Pohon Keputusan, dan Neural Networks. Hasil penelitian secara keseluruhan menunjukkan bahwa Naïve Bayes classifier adalah pilihan terbaik untuk pelatihan domain. Penggunaan model Naïve Bayes Classifier ini dikarenakan proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (Manning et al. 2008).
+Sentimen analisis atau \textit{opinion} mining adalah studi komputasional dari opini-opini orang, sentimen dan emosi melalui entitas dan atribut yang dimiliki yang diekspresikan dalam bentuk teks \citeauthor{LIU2012} (\cite*{LIU2012}). Analisis sentimen akan mengelompokkan polaritas dari teks yang ada dalam kalimat atau dokumen untuk mengetahui pendapat yang dikemukakan dalam kalimat atau dokumen tersebut apakah bersifat positif, negatif atau netral \cite{Pang+Lee+Vaithyanathan:02a} (\cite*{Pang+Lee+Vaithyanathan:02a}). Salah satu teknik pembelajaran mesin untuk analisis sentimen adalah \textit{Naïve Bayes classifier} (NBC). NBC merupakan teknik pembelajaran mesin yang berbasis probabilistik. NBC adalah metode sederhana tetapi memiliki akurasi serta performansi yang tinggi dalam pengklasifikasian teks (\cite{key:article}). \citeauthor{cogprints6708} (\citeauthor*{cogprints6708}) melakukan perbandingan antara tiga metode. Metode-metode tersebut adalah \textit{Naïve Bayes}, Pohon Keputusan, dan \textit{Neural Networks}. Hasil penelitian secara keseluruhan menunjukkan bahwa \textit{Naïve Bayes classifier} adalah pilihan terbaik untuk pelatihan domain. Penggunaan model \textit{Naïve Bayes Classifier} ini dikarenakan proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (\cite{MANNING2008}).
 
-Masalah utama yang dihadapi dalam klasifikasi sentimen adalah bagaimana cara menangani negasi. Dalam penelitian Narayanan (2013) Negation Handling Diimplementasikan dalan klasifikasi sentiment menggunakan naive bayes dan hasilnya menunjukkan peningkatan akurasi sebesar 1\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian ini akan berfokus pada metode Negation Handling pada data twitter berbahasa Indonesia.
+Dalam penelitian \citeauthor{NARAYANAN2013} (\citeauthor*{NARAYANAN2013}) Negation Handling Diimplementasikan dalan klasifikasi sentiment menggunakan naive bayes dan hasilnya menunjukkan peningkatan akurasi sebesar 1\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian ini akan berfokus pada metode Negation Handling pada data twitter berbahasa Indonesia.
 
 
 % Sub-sub Judul 
 \subsection*{Rumusan Masalah}
 Rumusan Masalah dari penelitian adalah:
 \begin{enumerate}[noitemsep] 
-	\item Bagaimana mengimplementasikan Metode Negation Handilng pada analisis sentimen Twitter berbahasa Indonesia ?
-	\item Apakah metode Negation Handling dapat meningkatkan akurasi sentimen analisis dibandingkan dengan tanpa menggunakan Negation Handling ?
+	\item Bagaimana mengimplementasikan Metode \textit{Negation Handling} pada analisis sentimen Twitter berbahasa Indonesia ?
+	\item Apakah metode \textit{Negation Handling} dapat meningkatkan akurasi analisis sentimen dibandingkan dengan tanpa menggunakan \textit{Negation Handling} ?
 \end{enumerate}
 
 \subsection*{Tujuan}
 Tujuan penelitian adalah:
 \begin{enumerate}[noitemsep] 
-	\item Mengimplementasikan sentimen analisis dengan menggunakan metode Negation Handling pada data Twitter berbahasa Indonesia.
-	\item Membandingkan akurasi dari sentimen analisis dengan Negation Handling dan tanpa menggunakan Negation Handling.
+	\item Mengimplementasikan analisis sentimen dengan menggunakan metode \textit{Negation Handling} pada data Twitter berbahasa Indonesia.
+	\item Membandingkan akurasi dari analisis sentimen dengan \textit{Negation Handling} dan tanpa menggunakan \textit{Negation Handling}.
 \end{enumerate}
 
 \subsection*{Manfaat}
+
 Hasil penelitian diharapkan dapat membantu kementrian pendidikan dalam menangani isu-isu negatif terkait dengan pendidikan dengan memanfaatkan sentimen analisis untuk mencari isu negatif tentang kementrian dan pendidikan.

@@ -174,6 +174,45 @@
       \field{type}{Skripsi}
       \field{year}{2014}
     \endentry
+    \entry{Meyer2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=99ef4902020eb527193e76bcde9f0ff9}{%
+           family={Feinerer},
+           family_i={F\bibinitperiod},
+           given={Ingo},
+           given_i={I\bibinitperiod}}}%
+        {{uniquename=0,hash=bec8dd1340457a82c21b54971e4c9417}{%
+           family={Hornik},
+           family_i={H\bibinitperiod},
+           given={Kurt},
+           given_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=8b8264d1ec124bc1b7e8110d3c084941}{%
+           family={Meyer},
+           family_i={M\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{59f0bdd7fc2c2776fe5aae947ab0a07e}
+      \strng{fullhash}{be1d21fcf9675ecb6c068facc751a43e}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2008}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{Text Mining Infrastructure in R}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 54}
+      \range{pages}{54}
+      \verb{url}
+      \verb http://www.jstatsoft.org/v25/i05/
+      \endverb
+    \endentry
     \entry{LIU2010}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=9c6fb2af2964f3126cfd4e505a38daca}{%
@@ -447,6 +486,85 @@
       \field{year}{2002}
       \field{pages}{79\bibrangedash 86}
       \range{pages}{8}
+    \endentry
+    \entry{key:article}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c936d136729a7d65e3a525746a546185}{%
+           family={Routray},
+           family_i={R\bibinitperiod},
+           given={Preeti},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=ad6e5865df78b03df76c9047330117c9}{%
+           family={Swain},
+           family_i={S\bibinitperiod},
+           given={Chinmaya\bibnamedelima Kumar},
+           given_i={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=657e4c6f6045edd51e4cbcec0d580d08}{%
+           family={Mishra},
+           family_i={M\bibinitperiod},
+           given={Smita\bibnamedelima Praya},
+           given_i={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cc3eb7eb60856489e024b07cc17d73e}
+      \strng{fullhash}{66c5619ebbaed7c0045f7973f6a9a886}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2013}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{month}{08}
+      \field{note}{Full text available}
+      \field{number}{10}
+      \field{title}{Article: A Survey on Sentiment Analysis}
+      \field{volume}{76}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{cogprints6708}{misc}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=2ce2986140f665d1b08f6d92f3bcfb2e}{%
+           family={Xhemali},
+           family_i={X\bibinitperiod},
+           given={Daniela},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=f24b9a62dc5a00277fce41be47f3e339}{%
+           family={HINDE},
+           family_i={H\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=af1a223d2bb0a76ca0575e3ac5c1c816}{%
+           family={STONE},
+           family_i={S\bibinitperiod},
+           given={Roger\bibnamedelima G.},
+           given_i={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Journal of Computer Science Issues, IJCSI}%
+      }
+      \strng{namehash}{f4e5e276b6f7b8cb38820ef36e0afae0}
+      \strng{fullhash}{efc7e2ea224fbc082a29f65afc3a1dd8}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2009}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Web classification has been attempted through many different technologies. In this study we concentrate on the comparison of Neural Networks (NN), Naïve Bayes (NB) and Decision Tree (DT) classifiers for the automatic analysis and classification of attribute data from training course web pages. We introduce an enhanced NB classifier and run the same data sample through the DT and NN classifiers to determine the success rate of our classifier in the training courses domain. This research shows that our enhanced NB classifier not only outperforms the traditional NB classifier, but also performs similarly as good, if not better, than some more popular, rival techniques. This paper also shows that, overall, our NB classifier is the best choice for the training courses domain, achieving an impressive F-Measure value of over 97\%, despite it being trained with fewer samples than any of the classification systems we have encountered.}
+      \field{journaltitle}{D. XHEMALI, C. J. HINDE and Roger G. STONE, "Naive Bayes vs. Decision Trees vs. Neural Networks in the Classification of Training Web Pages", International Journal of Computer Science Issues, IJCSI, Volume 4, Issue 1, pp16-23, September 2009}
+      \field{month}{09}
+      \field{number}{1}
+      \field{title}{Naive Bayes vs. Decision Trees vs. Neural Networks in the Classification of Training Web Pages}
+      \field{volume}{4}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://cogprints.org/6708/
+      \endverb
+      \keyw{Web classification,Naive Bayesian Classifier,Decision Tree Classifier,Neural Network Classifier,Supervised learning}
     \endentry
     \entry{ZHANG2011}{article}{}
       \name{author}{5}{}{%
