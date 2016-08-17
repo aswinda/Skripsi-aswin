@@ -42,6 +42,65 @@
       \field{type}{Skripsi}
       \field{year}{2014}
     \endentry
+    \entry{Adriani:2007:SIC:1316457.1316459}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=ecf5e176a68936044a616eeba629ef31}{%
+           family={Adriani},
+           family_i={A\bibinitperiod},
+           given={Mirna},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=51a39d456a289cf3f53d31deda41392a}{%
+           family={Asian},
+           family_i={A\bibinitperiod},
+           given={Jelita},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8680d5cd017f17d3f1c40e147e88a6ba}{%
+           family={Nazief},
+           family_i={N\bibinitperiod},
+           given={Bobby},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=b9a76b7fa8c3fc00b54245a5c2db7ede}{%
+           family={Tahaghoghi},
+           family_i={T\bibinitperiod},
+           given={S.\bibnamedelimi M.M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=d014bad4553a8816c82a81bd1a7eeedc}{%
+           family={Williams},
+           family_i={W\bibinitperiod},
+           given={Hugh\bibnamedelima E.},
+           given_i={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{59527112d694a333b0ec809b7c118125}
+      \strng{fullhash}{896e02195b6246bbb165c3b348557366}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2007}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-0226}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Stemming Indonesian: A Confix-stripping Approach}
+      \field{volume}{6}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1145/1316457.1316459
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1316457.1316459
+      \endverb
+      \keyw{Indonesian,information retrieval,stemming}
+    \endentry
     \entry{agusta2009}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=7970544c6b1ca93ac2d77f6647ad5aca}{%
@@ -173,6 +232,86 @@
       \field{type}{Skripsi}
       \field{year}{2013}
     \endentry
+    \entry{Das01yahoo!for}{inproceedings}{}
+      \name{author}{13}{}{%
+        {{uniquename=0,hash=70817129b16a821bc6a7cdbb08a14d8e}{%
+           family={Das},
+           family_i={D\bibinitperiod},
+           given={Sanjiv\bibnamedelima R.},
+           given_i={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=1be037de76e62852e481da4444543829}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Mike\bibnamedelima Y.},
+           given_i={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=da7aea284d29c5238e61e39c2512399c}{%
+           family={Agarwal},
+           family_i={A\bibinitperiod},
+           given={To\bibnamedelima Vikas},
+           given_i={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=4726a7879c1e5be93ed2768c8a61604c}{%
+           family={Brooks},
+           family_i={B\bibinitperiod},
+           given={Chris},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=94f32779695ba8b9769951b3918797c4}{%
+           family={Chan},
+           family_i={C\bibinitperiod},
+           given={Yuk-shee},
+           given_i={Y\bibinithyphendelim s\bibinitperiod}}}%
+        {{uniquename=0,hash=45554645828c5905452afc30b922df01}{%
+           family={Gibson},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=686d25300e0a8e6cb8e9d62a837ab575}{%
+           family={Leinweber},
+           family_i={L\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=9b8af92221736ebb025c2b463a1f318b}{%
+           family={Martinez-jerez},
+           family_i={M\bibinithyphendelim j\bibinitperiod},
+           given={Asis},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=be29bedf52680f940d0bb97967f89a74}{%
+           family={Raghubir},
+           family_i={R\bibinitperiod},
+           given={Priya},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=87ba8b5f2a177fd89099eedcd5438a75}{%
+           family={Rajagopalan},
+           family_i={R\bibinitperiod},
+           given={Sridhar},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=05ddefb074280f834b77b5ba534fe770}{%
+           family={Ranade},
+           family_i={R\bibinitperiod},
+           given={Ajit},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=bbe9515d147f6af78ee48885af3e91ad}{%
+           family={Rubinstein},
+           family_i={R\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=e61ed79a170d8e7c80f82d23bf55fd1e}{%
+           family={Tufano},
+           family_i={T\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{382cf18b83a5c7c6abe9e2654b8268b3}
+      \strng{fullhash}{82547bc81467eb42033de24e1bfa6ee5}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{8th Asia Pacific Finance Association Annual Conference}
+      \field{title}{Yahoo! for amazon: Sentiment extraction from small talk on the web}
+      \field{year}{2001}
+    \endentry
     \entry{DIMASTYO2014}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=db9ae1fe702bda68f96e508a07a7041f}{%
@@ -234,6 +373,26 @@
       \verb{url}
       \verb http://www.jstatsoft.org/v25/i05/
       \endverb
+    \endentry
+    \entry{garnes2009}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e322a243f1cdae4f385f9f98227013e3}{%
+           family={Garnes},
+           family_i={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Norwegia (NO): NTNU}%
+      }
+      \strng{namehash}{e322a243f1cdae4f385f9f98227013e3}
+      \strng{fullhash}{e322a243f1cdae4f385f9f98227013e3}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Feature Selection for Text Categorisation}
+      \field{year}{2009}
     \endentry
     \entry{LIU2010}{thesis}{}
       \name{author}{1}{}{%
@@ -364,6 +523,26 @@
       \verb http://doi.acm.org/10.1145/2346676.2346681
       \endverb
       \keyw{natural language processing,opinion mining,sentiment analysis,supervised learning}
+    \endentry
+    \entry{nadilah2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=67b48920ae1b934ad334ff7f715e940b}{%
+           family={Nadilah},
+           family_i={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Institut Pertanian Bogor}%
+      }
+      \strng{namehash}{67b48920ae1b934ad334ff7f715e940b}
+      \strng{fullhash}{67b48920ae1b934ad334ff7f715e940b}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Asosiasi dan Geovisualisasi Antara Data Tweet Terkait Kebakaran Hutan dengan Data Cuaca di Provinsi Riau dan Kepulauan Riau}
+      \field{year}{2016}
     \endentry
     \entry{NARAYANAN2013}{thesis}{}
       \name{author}{3}{}{%
@@ -509,6 +688,29 @@
       \field{pages}{79\bibrangedash 86}
       \range{pages}{8}
     \endentry
+    \entry{Robertson04understandinginverse}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c7dab237c14cbb4e5def052a91d7ec99}{%
+           family={Robertson},
+           family_i={R\bibinitperiod},
+           given={Stephen},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7dab237c14cbb4e5def052a91d7ec99}
+      \strng{fullhash}{c7dab237c14cbb4e5def052a91d7ec99}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2004}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Documentation}
+      \field{title}{Understanding inverse document frequency: On theoretical arguments for IDF}
+      \field{volume}{60}
+      \field{year}{2004}
+      \field{pages}{2004}
+      \range{pages}{1}
+    \endentry
     \entry{key:article}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=c936d136729a7d65e3a525746a546185}{%
@@ -545,6 +747,91 @@
       \field{year}{2013}
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
+    \endentry
+    \entry{seiberg1999string}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=c1fe5d39fd0373c9697cb4ec1c1279f3}{%
+           family={Seiberg},
+           family_i={S\bibinitperiod},
+           given={Nathan},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           family_i={W\bibinitperiod},
+           given={Edward},
+           given_i={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{bb1c7ee0ab5ff16618a2612b4c0627ea}
+      \strng{fullhash}{bb1c7ee0ab5ff16618a2612b4c0627ea}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{number}{09}
+      \field{title}{String theory and noncommutative geometry}
+      \field{volume}{1999}
+      \field{year}{1999}
+      \field{pages}{032}
+      \range{pages}{1}
+    \endentry
+    \entry{journals/csl/SproatBCKOR01}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=36e382e4bd95d1f268cfbf79f3940a08}{%
+           family={Sproat},
+           family_i={S\bibinitperiod},
+           given={Richard},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=241a5e1d511c07c2113a6da0defd8cc8}{%
+           family={Black},
+           family_i={B\bibinitperiod},
+           given={Alan\bibnamedelima W.},
+           given_i={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=65f24792d2e9628dff05198810fff395}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Stanley\bibnamedelima F.},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=e30842a3e98cb8bbaf4249e8306c51c1}{%
+           family={Kumar},
+           family_i={K\bibinitperiod},
+           given={Shankar},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=d9964335acf3f82957cd1e681220c042}{%
+           family={Ostendorf},
+           family_i={O\bibinitperiod},
+           given={Mari},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b3d1a6ef24a184b0cdd5244eff14ab5f}{%
+           family={Richards},
+           family_i={R\bibinitperiod},
+           given={Christopher},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{438b3ef3ea40a948f6aea2a04c66ee96}
+      \strng{fullhash}{4d818fba28590aaaa38900b13312605d}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Speech \& Language}
+      \field{number}{3}
+      \field{title}{Normalization of non-standard words.}
+      \field{volume}{15}
+      \field{year}{2001}
+      \field{pages}{287\bibrangedash 333}
+      \range{pages}{47}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/csl/csl15.html#SproatBCKOR01
+      \endverb
+      \keyw{nlp normalization text}
     \endentry
     \entry{tala2003study}{article}{}
       \name{author}{1}{}{%
