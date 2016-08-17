@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 19:05
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1708,13 +1708,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
-
-LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
-
-
 Underfull \vbox (badness 2717) has occurred while \output is active []
 
 
@@ -1735,7 +1728,7 @@ Overfull \hbox (23.43042pt too wide) in paragraph at lines 22--23
 n
  []
 
-) (metode.tex <gambar/langkahkerja.png, id=18, 391.4625pt x 472.01344pt>
+) (metode.tex <gambar/langkahkerja.png, id=19, 391.4625pt x 472.01344pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
@@ -1946,6 +1939,12 @@ ipsi.
  []
 
 
+Overfull \hbox (66.79019pt too wide) in paragraph at lines 148--148
+\OT1/pcr/m/n/10.95 / / www . cs . uic . edu / []liub / FBS / SentimentAnalysis 
+-[]
+ []
+
+
 Overfull \hbox (3.30516pt too wide) in paragraph at lines 148--148
 \OT1/ptm/m/n/10.95 (-20) ``Com-bin-ing Lex-i-con and Learn-ing Based Ap-proache
 s
@@ -1959,18 +1958,18 @@ tm/m/n/10.95 (-20) .
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (11.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
 Overfull \hbox (14.55786pt too wide) in paragraph at lines 148--148
 [][]\OT1/ptm/m/n/10.95 (-20) Zhang \OT1/ptm/m/it/10.95 (-20) et al. \OT1/ptm/m/
 n/10.95 (-20) 2011. ``Com-bin-ing Lexicon-based and Learning-
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1992,24 +1991,19 @@ Package rerunfilecheck Info: File `kolokium_ekstensi.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                kolokium_ekstensi
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 \openout1 = `kolokium_ekstensi.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27125 strings out of 493335
- 460364 string characters out of 3139260
- 940859 words of memory out of 3000000
- 29894 multiletter control sequences out of 15000+200000
- 77494 words of font info for 298 fonts, out of 3000000 for 9000
+ 27133 strings out of 493335
+ 460496 string characters out of 3139260
+ 941880 words of memory out of 3000000
+ 29898 multiletter control sequences out of 15000+200000
+ 77695 words of font info for 300 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1440s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -2022,9 +2016,9 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
 TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 187994 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 193399 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
  52230 words of extra memory for PDF output out of 61914 (max. 10000000)
 
