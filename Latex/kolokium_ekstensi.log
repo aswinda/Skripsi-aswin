@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:52
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1715,9 +1715,6 @@ LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
 LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
 
 
-LaTeX Warning: Citation 'PANG2002' on page 1 undefined on input line 12.
-
-
 Overfull \hbox (19.21196pt too wide) in paragraph at lines 9--14
 \OT1/ptm/m/n/10.95 (-20) melakukan opin-ion min-ing dan sen-ti-men anal-i-sis [
 ]
@@ -1989,7 +1986,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 Here is how much of TeX's memory you used:
  27043 strings out of 493335
  459009 string characters out of 3139260
- 939822 words of memory out of 3000000
+ 940804 words of memory out of 3000000
  29842 multiletter control sequences out of 15000+200000
  74277 words of font info for 282 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
@@ -2006,7 +2003,7 @@ ata/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on kolokium_ekstensi.pdf (7 pages, 175795 bytes).
+Output written on kolokium_ekstensi.pdf (7 pages, 175474 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
