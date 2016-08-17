@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  17 AUG 2016 18:55
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1620,6 +1620,12 @@ Package biblatex Info: ... file 'kolokium_ekstensi.bbl' found.
 (kolokium_ekstensi.bbl
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'PAK10.385':
+(biblatex)                - Datamodel: Entry 'PAK10.385' (pustaka.bib): Invalid
+ format '19-21' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'ZHANG2011':
 (biblatex)                - Name in key 'ZHANG2011' is empty (probably consecut
 ive 'and'): skipping name.
@@ -1703,27 +1709,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
 
-LaTeX Warning: Citation 'PAK10.385' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'PAK10.385' on page 1 undefined on input line 9.
-
-
 LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
 
 
 LaTeX Warning: Citation 'LIU2012' on page 1 undefined on input line 12.
-
-
-Overfull \hbox (19.21196pt too wide) in paragraph at lines 9--14
-\OT1/ptm/m/n/10.95 (-20) melakukan opin-ion min-ing dan sen-ti-men anal-i-sis [
-]
- []
-
-
-Overfull \hbox (0.73361pt too wide) in paragraph at lines 9--14
-\OT1/ptm/m/n/10.95 (-20) ([]). Berba-gai macam pe-rusa-haan ser-ing meng-
- []
 
 
 Underfull \vbox (badness 2717) has occurred while \output is active []
@@ -1746,7 +1735,7 @@ Overfull \hbox (23.43042pt too wide) in paragraph at lines 22--23
 n
  []
 
-) (metode.tex <gambar/langkahkerja.png, id=16, 391.4625pt x 472.01344pt>
+) (metode.tex <gambar/langkahkerja.png, id=18, 391.4625pt x 472.01344pt>
 File: gambar/langkahkerja.png Graphic file (type png)
 
 <use gambar/langkahkerja.png>
@@ -1984,11 +1973,11 @@ Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27043 strings out of 493335
- 459009 string characters out of 3139260
- 940804 words of memory out of 3000000
- 29842 multiletter control sequences out of 15000+200000
- 74277 words of font info for 282 fonts, out of 3000000 for 9000
+ 27071 strings out of 493335
+ 459378 string characters out of 3139260
+ 939825 words of memory out of 3000000
+ 29851 multiletter control sequences out of 15000+200000
+ 76847 words of font info for 294 fonts, out of 3000000 for 9000
  1217 hyphenation exceptions out of 8191
  60i,13n,94p,10423b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -2003,9 +1992,9 @@ ata/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on kolokium_ekstensi.pdf (7 pages, 175474 bytes).
+Output written on kolokium_ekstensi.pdf (7 pages, 175896 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 47622 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 51718 words of extra memory for PDF output out of 61914 (max. 10000000)
 

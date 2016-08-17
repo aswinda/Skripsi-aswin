@@ -208,6 +208,86 @@
       \field{title}{Fast and accurate sentiment classification using an enhanced Naive Bayes model}
       \field{year}{2013}
     \endentry
+    \entry{PAK10.385}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b4447902cfb62eb70b8b195431fe949d}{%
+           family={Pak},
+           family_i={P\bibinitperiod},
+           given={Alexander},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=b5e593803eacd55a27d52195d7fe1a01}{%
+           family={Paroubek},
+           family_i={P\bibinitperiod},
+           given={Patrick},
+           given_i={P\bibinitperiod}}}%
+      }
+      \name{editor}{8}{}{%
+        {{hash=4787e03a748ac4658ce266650647c5b2}{%
+           family={Chair)},
+           family_i={C\bibinitperiod},
+           given={Nicoletta\bibnamedelimb Calzolari\bibnamedelima (Conference},
+           given_i={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+        {{hash=39867e26feb655084bcaa95ee00ad1b3}{%
+           family={Choukri},
+           family_i={C\bibinitperiod},
+           given={Khalid},
+           given_i={K\bibinitperiod}}}%
+        {{hash=f89d93ac385cd2c8048bd80b6bec272c}{%
+           family={Maegaard},
+           family_i={M\bibinitperiod},
+           given={Bente},
+           given_i={B\bibinitperiod}}}%
+        {{hash=bdf0b8f2adba0ed452d8c7a080e79edb}{%
+           family={Mariani},
+           family_i={M\bibinitperiod},
+           given={Joseph},
+           given_i={J\bibinitperiod}}}%
+        {{hash=663e887ebca3a6dfcd35d2bbf8163b42}{%
+           family={Odijk},
+           family_i={O\bibinitperiod},
+           given={Jan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9d79dd4fb50589491e453c48e1d3c56a}{%
+           family={Piperidis},
+           family_i={P\bibinitperiod},
+           given={Stelios},
+           given_i={S\bibinitperiod}}}%
+        {{hash=07a088dd0e0f7bf00735aa329f1930ca}{%
+           family={Rosner},
+           family_i={R\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+        {{hash=8c350023b6a37b3ba3f36e76733c22a0}{%
+           family={Tapias},
+           family_i={T\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Valletta, Malta}%
+      }
+      \list{publisher}{1}{%
+        {European Language Resources Association (ELRA)}%
+      }
+      \strng{namehash}{2b99023ac34d7069059a1802abe09ed3}
+      \strng{fullhash}{2b99023ac34d7069059a1802abe09ed3}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2010}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10)}
+      \field{isbn}{2-9517408-6-7}
+      \field{month}{05}
+      \field{title}{Twitter as a Corpus for Sentiment Analysis and Opinion Mining}
+      \field{year}{2010}
+      \warn{\item Datamodel: Entry 'PAK10.385' (pustaka.bib): Invalid format '19-21' of date field 'date' - ignoring}
+    \endentry
     \entry{ZHANG2011}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=96641e4a5a09e69b32236adbdfd55407}{%
