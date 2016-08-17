@@ -16,7 +16,7 @@ Penelitian yang dilakukan terbagi menjadi beberapa tahapan proses. Gambar \ref{f
 \subsection*{Pengumpulan Data}
 
 Penelitian ini menggunakan data twitter bahasa Indonesia. Data yang akan diambil dari twitter adalah data dengan term “Kementrian”, “Menteri”, “Pendidikan”, “Sekolah” dan “Indonesia”. Data dengan term tersebut diambil karena di ranah kementrian sangat membutuhkan opini-opini masyarakat untuk meningkatkan kualitas dari kementrian terkhusus pada ranah Pendidikan. 
-Pada tahap akuisisi data tweet, data diperoleh dari tags.hawksey.info. Data yang didapatkan berupa data excel dengan atribut seperti pada Tabel \ref{tab:strukturdatatwitter}.
+Pada tahap akuisisi data tweet, data diperoleh dari \textit{tags.hawksey.info}. Data yang didapatkan berupa data excel dengan atribut seperti pada Tabel \ref{tab:strukturdatatwitter}.
 
 \begin{table}[hbt]
 	\caption{Struktur Data Response Twitter}
@@ -48,14 +48,14 @@ Dari struktur data yang didapatkan dari sistem tersebut, akan diambil atribut "t
 
 \subsection*{Indexing}
 
-\textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya.  Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan tweet hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing (yang bukan bahasa Inggris)(Parikh dan Movassate, 2014). Tahap-tahap yang dilakukan didalam proses \textit{indexing} meliputi \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, pembuatan \textit{document term matrix}.
+\textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya.  Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan tweet hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing yang bukan bahasa Inggris (Parikh dan Movassate, 2014). Tahap-tahap yang dilakukan didalam proses \textit{indexing} meliputi \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, pembuatan \textit{document term matrix}.
 
 
-\subsection*{Tokenizing}
-Tokenizing adalah pengambilan kata-kata (term) dari kumpulan dokumen menjadi kumpulan term dan juga membuang beberapa karakter seperti tanda baca. Contoh dari tokenisasi adalah seperti pada tabel \ref{tab:tokenizing}.
+\subsubsection*{\textit{Tokenizing}}
+\textit{Tokenizing} adalah pengambilan kata-kata (\textit{term}) dari kumpulan dokumen menjadi kumpulan \textit{term} dan juga membuang beberapa karakter seperti tanda baca. Contoh dari tokenisasi adalah seperti pada Tabel \ref{tab:tokenizing}.
 
 \begin{table}[hbt]
-	\caption{Tokenizing}
+	\caption{\textit{Tokenizing}}
 	\centering
 	\begin{tabular}{llr}
 		\toprule
@@ -66,29 +66,28 @@ Tokenizing adalah pengambilan kata-kata (term) dari kumpulan dokumen menjadi kum
 	\end{tabular}
 	\label{tab:tokenizing}
 \end{table}
-
-Proses memotong dokumen atau kata menjadi bagian-bagian yang lebih kecil disebut token. token bisa berupa paragraf, kalimat, frasa kata tunggal sederhana dan konsep. teknik yang digunakan dalam proses tokenisasi adalah segmentasi dan memilah.
+Proses memotong dokumen atau kata menjadi bagian-bagian yang lebih kecil disebut \textit{token}. \textit{token} bisa berupa paragraf, kalimat, frasa kata tunggal sederhana dan konsep. teknik yang digunakan dalam proses tokenisasi adalah segmentasi dan memilah.
 Dalam tahap ini dokumen atau data \textit{post} twitter diubah menjadi kumpulan \textit{term} dengan cara menghilangkan \textit{mention}, URL, tanda baca dan angka pada tweet. Semua huruf pada tweet diubah menjadi huruf kecil. Pada penelitian ini tokenisasi dilakukan dengan menggunakan kode dari Nette yang terdapat di https://github.com/nette/tokenizer.
 
 
-\subsection*{Penghapusan Stopwords}
+\subsubsection*{Penghapusan \textit{Stopwords}}
 
-Stopwords adalah sebuah kata-kata dalam bahasa tertentu yang sangat umum dan memiliki nilai informasi nol. Meyer et.al.(2008). Stopwords didefinisikan sebagai term yang tidak berhubungan (\textit{irrelevant}) dengan dokumen meskipun kata tersebut sering muncul di dalam dokumen. Contoh \textit{stopwords} dalam bahasa  Indonesia : yang, juga, dari, dia, kami, kamu, aku, saya, ini, itu, atau, dll.
-Penghapusan stopwords dilakukan untuk menghilangkan kata dalam daftar kata buang (\textit{stopwords}). Kata tersebut merupakan kata yang jika dihapus tidak mengubah makna dari tweet. Daftar \textit{stopwords} didapatkan dari penelitian Tala (2003) sebanyak 759 kata.
+Stopwords adalah sebuah kata-kata dalam bahasa tertentu yang sangat umum dan memiliki nilai informasi nol (\cite{Meyer2008}). Stopwords didefinisikan sebagai term yang tidak berhubungan (\textit{irrelevant}) dengan dokumen meskipun kata tersebut sering muncul di dalam dokumen. Contoh \textit{stopwords} dalam bahasa  Indonesia : yang, juga, dari, dia, kami, kamu, aku, saya, ini, itu, atau, dll.
+Penghapusan \textit{stopwords} dilakukan untuk menghilangkan kata dalam daftar kata buang (\textit{stopwords}). Kata tersebut merupakan kata yang jika dihapus tidak mengubah makna dari tweet. Daftar \textit{stopwords} didapatkan dari penelitian \citeauthor{tala2003study} (\cite*{tala2003study}) sebanyak 759 kata.
 
 
-\subsection*{Normalisasi Kata}
+\subsubsection*{Normalisasi Kata}
 
-Menurut Aziz (2013) tahap normalisasi kata dilakukan dengan penggantian kata yang tidak baku menjadi baku, karena kata yang sudah baku akan cenderung lebih kecil ambiguitas dalam pelafalannya dibanding dengan kata yang tidak baku. Misalnya, kata dengan dapat ditulis dengan "dg" dan "dgn".  Untuk itu perlu dilakukan normalisasi kata dengan cara mengganti kata yang tidak baku dengan kata yang sesuai konteknya (Sproat et al. 2001). Sebelumnya sudah dibuat terlebih dahulu sebuah kamus yang tidak baku dengan kata bakunya, agar memudahkan dalam fungsi penggantian dan kemudian menggantinya dengan kata baku yang telah ada di dalam kamus tersebut. Dataset kata tidak baku dan kata baku yang digunakan sebanyak 3719 baris data. 
+Menurut \citeauthor{AZIZ2013} (\cite*{AZIZ2013}) tahap normalisasi kata dilakukan dengan penggantian kata yang tidak baku menjadi baku, karena kata yang sudah baku akan cenderung lebih kecil ambiguitas dalam pelafalannya dibanding dengan kata yang tidak baku. Misalnya, kata dengan dapat ditulis dengan "dg" dan "dgn".  Untuk itu perlu dilakukan normalisasi kata dengan cara mengganti kata yang tidak baku dengan kata yang sesuai konteknya (\cite{journals/csl/SproatBCKOR01}). Sebelumnya sudah dibuat terlebih dahulu sebuah kamus yang tidak baku dengan kata bakunya, agar memudahkan dalam fungsi penggantian dan kemudian menggantinya dengan kata baku yang telah ada di dalam kamus tersebut. Dataset kata tidak baku dan kata baku yang digunakan dari penelitian \citeauthor{AZIZ2013} (\cite*{AZIZ2013}) sebanyak 3719 baris data. 
 
-\subsection*{Stemming}
+\subsubsection*{Stemming}
 
-\textit{Stemming} adalah  proses  konversi term ke bentuk  umumnya. Dokumen dapat pula diekspansi dengan mencarikan  sinonim  bagi \textit{term} tertentu di  dalamnya. Sinonim adalah kata-kata yang mempunyai pengertian serupa tetapi berbeda dari sudut pandang morfologis. Seperti \textit{stemming},  operasi ini bertujuan menemukan suatu kelompok kata terkait.
-\textit{Stemming} merupakan salah satu cara yang digunakan untuk meningkatkan performa IR dengan cara mentransformasi kata-kata dalam sebuah dokumen teks ke kata dasarnya (Agusta, 2009). Tahap \textit{stemming} bertujuan untuk mengurangi jumlah kata dan mendapatkan kata dasar yang benar-benar sesuai.Tahap ini menggunakan algoritme Nazief dan Adriani (1996) untuk menghapus berbagai variasi \textit{prefix} (awalan) dan suffix (akhiran). Kamus kata dasar sebanyak 28.526 kata.
+\textit{Stemming} adalah proses konversi \textit{term} ke bentuk  umumnya. Dokumen dapat pula diekspansi dengan mencarikan  sinonim  bagi \textit{term} tertentu di  dalamnya. Sinonim adalah kata-kata yang mempunyai pengertian serupa tetapi berbeda dari sudut pandang morfologis. Seperti \textit{stemming},  operasi ini bertujuan menemukan suatu kelompok kata terkait.
+\textit{Stemming} merupakan salah satu cara yang digunakan untuk meningkatkan performa IR dengan cara mentransformasi kata-kata dalam sebuah dokumen teks ke kata dasarnya (\cite{agusta2009}). Tahap \textit{stemming} bertujuan untuk mengurangi jumlah kata dan mendapatkan kata dasar yang benar-benar sesuai.Tahap ini menggunakan algoritme \citeauthor{Adriani:2007:SIC:1316457.1316459} (\cite*{Adriani:2007:SIC:1316457.1316459}) untuk menghapus berbagai variasi \textit{prefix} (awalan) dan \textit{suffix} (akhiran). Kamus kata dasar sebanyak 28.526 kata.
 
-\subsection*{Pembuatan Document Term Matrix (DTM)}
+\subsubsection*{Pembuatan Document Term Matrix (DTM)}
 
-Menurut Nadilah (2016) tahap pembuatan \textit{term document matrix} (TDM) dilakukan untuk membuat matriks jumlah kemunculan suatu kata pada dokumen. \textit{Document Term Matrix} (DTM) merupakan cara yang paling umum digunakan untuk merepresentasikan text. DTM dapat diekspor dari korpus dan digunakan sebagai mekanisme \textit{bag-of-words}. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Elemen matrik merupakan frekuensi.
+Menurut \citeauthor{nadilah2016} (\cite*{nadilah2016}) tahap pembuatan \textit{term document matrix} (TDM) dilakukan untuk membuat matriks jumlah kemunculan suatu kata pada dokumen. \textit{Document Term Matrix} (DTM) merupakan cara yang paling umum digunakan untuk merepresentasikan text. DTM dapat diekspor dari korpus dan digunakan sebagai mekanisme \textit{bag-of-words}. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Elemen matrik merupakan frekuensi.
 Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu “Nama saya budi dan nama ayah saya budi” dan “nama teman saya budi”. Term document matrix yang terbentuk adalah seperti pada Tabel \ref{tab:dtm}.
 
 \begin{table}[hbt]
@@ -107,26 +106,26 @@ Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu 
 	\label{tab:dtm}
 \end{table}
 
-Pada penelitian ini kolom matriks menunjukkan kata yang ada pada data tweet, sedangkan baris matriks menunjukkan indeks dari dokumen pada kumpulan korpus. Pada penelitian ini satu tweet menandakan satu dokumen.
+Pada penelitian ini kolom matriks menunjukkan kata yang ada pada data \textit{tweet}, sedangkan baris matriks menunjukkan indeks dari dokumen pada kumpulan korpus. Pada penelitian ini satu \textit{tweet} menandakan satu dokumen.
 
 \subsection*{Pembagian Data}
 
-Data yang dihasilkan setelah proses \textit{indexing} dibagi  menjadi  dua subset data yaitu data latih dan data uji dengan perbandingan 70:30. Sebanyak 70 persen data latih dan 30 persen data uji. Data latih ini akan digunakan untuk tahapan selanjutnya sementara data uji digunakan untuk melakukan pengujian terhadap sistem klasifikasi yang telah dibuat dalam penelitian ini.
+Data yang dihasilkan setelah proses \textit{indexing} dibagi menjadi  dua subset data yaitu data latih dan data uji dengan perbandingan 70:30. Sebanyak 70 persen data latih dan 30 persen data uji. Data latih ini akan digunakan untuk tahapan selanjutnya sementara data uji digunakan untuk melakukan pengujian terhadap sistem klasifikasi yang telah dibuat dalam penelitian ini.
 
 \subsection*{Pemilihan Fitur}
 
-Seleksi fitur merupakan proses pemilihan subset dari \textit{term} pada data training. Fitur yang terpilih pada seleksi fitur ini akan digunakan dalam klasifikasi teks. Tujuan dari seleksi fitur adalah membuat data latih yang digunakan \textit{clasifier} lebih efisien dengan cara mengurangi ukuran kosakata yang efektif dan meningkatkan akurasi klasifikasi dengan menghilangkan fitur \textit{noise} (Manning et al. 2008).
-Seleksi fitur secara umum dibagi menjadi \textit{unsupervised feature selection} dan \textit{supervised feature selection} (Garnes, 2009). \textit{Unsupervised feature selection} adalah sebuah metode seleksi fitur yang tidak menggunakan informasi kelas dalam data pelatihan ketika memilih fitur untuk \textit{classifier}. Salah satu contoh seleksi fitur yang tidak menggunakan informasi kelas dalam pemilihan fiturnya adalah IDF.
+Seleksi fitur merupakan proses pemilihan subset dari \textit{term} pada data latih. Fitur yang terpilih pada seleksi fitur ini akan digunakan dalam klasifikasi teks. Tujuan dari seleksi fitur adalah membuat data latih yang digunakan \textit{clasifier} lebih efisien dengan cara mengurangi ukuran kosakata yang efektif dan meningkatkan akurasi klasifikasi dengan menghilangkan fitur \textit{noise} (\cite{MANNING2008}).
+
+Seleksi fitur secara umum dibagi menjadi \textit{unsupervised feature selection} dan \textit{supervised feature selection} (\cite{garnes2009}). \textit{Unsupervised feature selection} adalah sebuah metode seleksi fitur yang tidak menggunakan informasi kelas dalam data pelatihan ketika memilih fitur untuk \textit{classifier}. Salah satu contoh seleksi fitur yang tidak menggunakan informasi kelas dalam pemilihan fiturnya adalah IDF.
 Metode seleksi fitur selanjutnya adalah \textit{supervised feature selection} yaitu metode yang menggunakan informasi kelas dalam data latihnya. Untuk menggunakan seleksi fitur ini harus tersedia \textit{pre-classied}. contoh dari \textit{supervised feature selection} adalah MI dan \textit{chi-square}.
 
-\subsection*{Inverse document frequency (IDF)}
+\subsubsection*{Inverse document frequency (IDF)}
 
-DF merupakan banyaknya dokumen yang mengandung \textit{term}. Ukuran nilai kepentingan suatu term dari dokumen yang digunakan sebagai penciri adalah nilai DF yang besar, namun nilai dari DF memiliki rentang nilai yang lebar. \textit{Inverse document frequency} (IDF) adalah inverse dari nilai DF, sehingga ukuran kepentingan suatu \textit{term} dari dokumen yang akan digunakan penciri yang memiliki nilai kecil dengan rentang yang tidak begitu jauh. Menurut Witten (1999) kata yang jarang atau paling sedikit muncul justru harus diperhatikan sebagai kata yang lebih penting dari pada kata yang paling sering muncul dalam dokumen. Nilai dari IDF disimbolkan dengan  idft  yang ditulis dengan formula [\ref{eq:persamaanidf}]
-
+DF merupakan banyaknya dokumen yang mengandung \textit{term}. Ukuran nilai kepentingan suatu term dari dokumen yang digunakan sebagai penciri adalah nilai DF yang besar, namun nilai dari DF memiliki rentang nilai yang lebar. \textit{Inverse document frequency} (IDF) adalah inverse dari nilai DF, sehingga ukuran kepentingan suatu \textit{term} dari dokumen yang akan digunakan penciri yang memiliki nilai kecil dengan rentang yang tidak begitu jauh. Menurut Witten (1999) kata yang jarang atau paling sedikit muncul justru harus diperhatikan sebagai kata yang lebih penting dari pada kata yang paling sering muncul dalam dokumen. Nilai dari IDF disimbolkan dengan  idf$_t$  yang ditulis dengan formula [\ref{eq:persamaanidf}]
 \begin{equation}
 idf\textsubscript{t} = log(\frac{N}{df\textsubscript{t}})
+\label{eq:persamaanidf}
 \end{equation}
-
 sedangkan N adalah banyaknya dokumen dan df\textsubscript{t} adalah banyaknya dokumen didalam koleksi yang mengandung term tertentu.
 
 \subsection*{Mutual information (MI)}
@@ -191,10 +190,10 @@ Pada penelitian ini akan menggunakan IDF sebagai seleksi fiturnya. IDF dipilih k
 
 \subsection*{Negation Handling}
 
-Negation Handling adalah salah satu faktor yang berkontribusi meningkatkan akurasi klasifikasi secara signifikan. Masalah utama yang dihadapi dalam klasifikasi sentimen adalah bagaimana cara menangani negasi. Karena setiap kata digunakan sebagai fitur kata "baik" dalam frase "tidak baik" akan mendapatkan sentimen positif daripada negatif karena kata "tidak" sebelumnya tidak dimasukkan dalam perhitungan.
-\newline Dalam penelitian Narayanan (2013) Negation Handling Diimplementasikan dalan klasifikasi sentiment menggunakan naive bayes dan hasilnya menunjukkan peningkatan akurasi sebesar 1\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian tersebut kata “good” akan meningkatkan jumlah kelas positif dan kata “not\_good” yang sudah dilakukan negation handling masuk kedalam kelas negatif.
-Dalam penelitian ini, kata “baik” yang sebelumnya ada “tidak” akan diproses dulu dengan Negation Handling sehingga menjadi “tidak\_baik”, jadi berbeda dengan penelitian yang dilakukan Narayanan (2013), kata “tidak\_baik” akan diperlakukan sebagai satu term dan akan masuk ke dalam kelas negatif.
-\newline Untuk menangani masalah ini dibuatlah algoritma simpel untuk Negation Handling menggunakan representasi bentuk negasi dari Das \& Chen (2001). Algoritma yang dugunakan akan mengubah kata yang diikuti kata negatif menjadi bentuk "tidak\_" + kata. Pseudocode yang digunakan dalam penelitian ini adalah sebagai berikut [\ref{algo:negationh}]
+\textit{Negation Handling} adalah salah satu faktor yang berkontribusi meningkatkan akurasi klasifikasi secara signifikan. Masalah utama yang dihadapi dalam klasifikasi sentimen adalah bagaimana cara menangani negasi. Karena setiap kata digunakan sebagai fitur kata "baik" dalam frase "tidak baik" akan mendapatkan sentimen positif daripada negatif karena kata "tidak" sebelumnya tidak dimasukkan dalam perhitungan.
+
+Dalam penelitian \citeauthor{NARAYANAN2013} (\cite*{NARAYANAN2013}) \textit{Negation Handling} diimplementasikan dalan klasifikasi sentimen menggunakan \textit{naive bayes} dan hasilnya menunjukkan peningkatan akurasi sebesar 1\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian tersebut kata “good” akan meningkatkan jumlah kelas positif dan kata “not\_good” yang sudah dilakukan negation handling masuk kedalam kelas negatif.
+Dalam penelitian ini, kata “baik” yang sebelumnya ada “tidak” akan diproses dulu dengan \textit{Negation Handling} sehingga menjadi “tidak\_baik”, jadi berbeda dengan penelitian yang dilakukan \citeauthor{NARAYANAN2013} (\cite*{NARAYANAN2013}), kata “tidak\_baik” akan diperlakukan sebagai satu \textit{term} dan akan masuk ke dalam kelas negatif. Untuk menangani masalah ini dibuatlah algoritma untuk \textit{Negation Handling} menggunakan representasi bentuk negasi dari Das \& Chen (2001). Algoritma yang dugunakan akan mengubah kata yang diikuti kata negatif menjadi bentuk "tidak\_" + kata. Pseudocode pada [\ref{algo:negationh}] yang digunakan dalam penelitian ini.
 
 \begin{algorithm}
 	\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
@@ -212,8 +211,7 @@ Dalam penelitian ini, kata “baik” yang sebelumnya ada “tidak” akan dipro
 \end{algorithm}
 
 \subsection*{Klasifikasi}
-Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data terhadap data pencirinya. Salah satu tujuan dari klasifikasi teks atau dokumen adalah penggolongkan atau mengelompokkan suatu dokumen ke dalam suatu kategori tertentu (Manning et all. 2008). Klasifikasi juga bertujuan untuk memprediksi karakteristik dari suatu objek. Klasifikasi juga dapat digunakan untuk mendeteksi sentiment terhadap suatu isu. Data hasil indexing akan diklasifikasikan terhadap analisis sentiment. Pada penelitian ini menggunakan 3 kelas sentimen yang digunakan, yaitu positif, negatif dan netral.Fungsi klasifikasi secara umum untuk memetakan suatu dokumen ke dalam kategori tertentu yaitu [\ref{eq:klasifikasi}]
-
+Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data terhadap data pencirinya. Salah satu tujuan dari klasifikasi teks atau dokumen adalah penggolongkan atau mengelompokkan suatu dokumen ke dalam suatu kategori tertentu (Manning et all. 2008). Klasifikasi juga bertujuan untuk memprediksi karakteristik dari suatu objek. Klasifikasi juga dapat digunakan untuk mendeteksi sentiment terhadap suatu isu. Data hasil indexing akan diklasifikasikan terhadap analisis sentiment. Pada penelitian ini menggunakan 3 kelas sentimen yang digunakan, yaitu positif, negatif dan netral.Fungsi klasifikasi secara umum untuk memetakan suatu dokumen ke dalam kategori tertentu yaitu
 \begin{equation}
 \begin{split}
 \tiny
@@ -222,8 +220,7 @@ Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data t
 \normalsize
 \end{split}
 \end{equation}
-
-Secara umum fungsi ini yang akan dipakai untuk mengelompok data ke dalam himpunan kelas atau kategori yang ada, dengan X adalah kumpulan dokumen dan C merupakan kategori. Fungsi klasifikasi terbagi menjadi dua metode yaitu, berbasis vektor dan berbasis peluang (Manning et all. 2009). Secara garis besar pada pendekataan berbasis peluang, penentuan kelas pada sebuah dokumen atau data adalah dengan cara menghitung peluang keberadaan data tersebut dalam suatu kelas. Metode yang sering digunakan adalah metode Naïve Bayes. Penggunaan model klasifikasi ini dikarenakan proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (Manning et al. 2008).\newline 
+secara umum fungsi ini yang akan dipakai untuk mengelompok data ke dalam himpunan kelas atau kategori yang ada, dengan X adalah kumpulan dokumen dan C merupakan kategori. Fungsi klasifikasi terbagi menjadi dua metode yaitu, berbasis vektor dan berbasis peluang (Manning et all. 2009). Secara garis besar pada pendekataan berbasis peluang, penentuan kelas pada sebuah dokumen atau data adalah dengan cara menghitung peluang keberadaan data tersebut dalam suatu kelas. Metode yang sering digunakan adalah metode Naïve Bayes. Penggunaan model klasifikasi ini dikarenakan proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (Manning et al. 2008).\newline 
 
 Multivariate Bernoulli meyatakan bahwa dokumen diwakili oleh atribut biner yang menunjukkan bahwa ada dan tidak ada term (kata-kata) dalam dokumen. Frekuensi kemunculan term (kata-kata) dalam dokumen tidak ikut diperhitungkan.  
 Sedangkan Multinomial Naïve Bayes, dokumen diwakili oleh kemunculan term (kata-kata) dari dokumen. Pada model ini, sebelumnya dibuat asumsi jika kemunculan masing-masing term t bersifat independen antara satu term dengan yang lainnya. Dengan menggunakan nilai dari P(c/d) peluang suatu dokumen d di dalam kelas c dapat ditulis sebagai (Manning et al. 2009) [\ref{eq:multinb}]
