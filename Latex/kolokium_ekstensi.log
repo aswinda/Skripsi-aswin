@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 05:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.11)  18 AUG 2016 06:26
 entering extended mode
 **./kolokium_ekstensi.tex
 (kolokium_ekstensi.tex
@@ -1814,21 +1814,9 @@ LaTeX Font Warning: Command \normalsize invalid in math mode on input line 169.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 
-Overfull \hbox (0.41556pt too wide) in paragraph at lines 193--197
+Overfull \hbox (0.41556pt too wide) in paragraph at lines 193--194
 \OT1/ptm/m/n/10.95 (-20) tribusi me-ning-kat-kan akurasi klasi-fikasi se-cara s
 ig-nifikan.
- []
-
-
-Overfull \hbox (2.83624pt too wide) in paragraph at lines 193--197
-\OT1/ptm/m/it/10.95 (-20) dling \OT1/ptm/m/n/10.95 (-20) di-im-ple-men-tasikan 
-dalan klasi-fikasi sen-ti-men meng-
- []
-
-
-Overfull \hbox (10.86179pt too wide) in paragraph at lines 214--215
-\OT1/ptm/m/n/10.95 (-20) Klasifikasi pada anal-i-sis sen-ti-men bertu-juan un-t
-uk mengkat-
  []
 
 
@@ -1839,48 +1827,57 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
 
 [5]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 222.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 221.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 222.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 221.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
+Overfull \hbox (2.4097pt too wide) in paragraph at lines 225--227
+\OT1/ptm/m/n/10.95 (-20) dan tidak ada \OT1/ptm/m/it/10.95 (-20) term \OT1/ptm/
+m/n/10.95 (-20) (kata-kata) dalam doku-men. Frekuensi
  []
 
 
-Overfull \hbox (2.4097pt too wide) in paragraph at lines 227--229
-\OT1/ptm/m/n/10.95 (-20) dan tidak ada term (kata-kata) dalam doku-men. Frekuen
-si
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 240.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 240.
+
+
+
+Overfull \hbox (0.75589pt too wide) in paragraph at lines 244--245
+\OT1/ptm/m/n/10.95 (-20) klasifikasi se-hinggga ni-lai $\OML/ztmcm/m/it/10.95 P
+\OT1/ztmcm/m/n/10.95 (\OML/ztmcm/m/it/10.95 tk\OMS/ztmcm/m/n/10.95 j\OML/ztmcm/
+m/it/10.95 c\OT1/ztmcm/m/n/10.95 )$ \OT1/ptm/m/n/10.95 (-20) yang di-hasilkan a
+dalah
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 245.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 251.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 245.
-
-
-
-Overfull \hbox (6.06847pt too wide) in paragraph at lines 248--250
-\OT1/ptm/m/n/10.95 (-20) klasifikasi se-hinggga ni-lai P(tk|c) yang di-hasilkan
- adalah
- []
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 257.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 257.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 251.
 
 
 
-Overfull \hbox (7.92328pt too wide) in paragraph at lines 263--266
+Overfull \hbox (7.92328pt too wide) in paragraph at lines 258--259
 \OT1/ptm/m/n/10.95 (-20) Tahap eval-u-asi di-lakukan un-tuk menge-tahui tingkat
  akurasi
  []
+
+
+Overfull \hbox (23.7598pt too wide) in paragraph at lines 298--300
+ [] 
+ []
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 311.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 311.
+
 
 
 Package Fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -1889,35 +1886,23 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Overfull \hbox (23.7598pt too wide) in paragraph at lines 303--305
- [] 
- []
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 316.
-
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 316.
-
-
-
-Overfull \hbox (1.86023pt too wide) in paragraph at lines 320--321
+Overfull \hbox (1.86023pt too wide) in paragraph at lines 315--316
 \OT1/ptm/m/n/10.95 (-20) sis juga dini-lai dari akurasinya, un-tuk menghi-tung 
 akurasi
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 328.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 323.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 328.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 323.
 
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 353.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 348.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 353.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 348.
 
 
 )
@@ -1943,17 +1928,12 @@ ipsi.
  []
 
 
-Overfull \hbox (7.50327pt too wide) in paragraph at lines 148--148
-\OT1/pcr/m/n/10.95 SentimentAnalysis -[] and -[] OpinionMining .
+Overfull \hbox (66.79019pt too wide) in paragraph at lines 148--148
+\OT1/pcr/m/n/10.95 / / www . cs . uic . edu / []liub / FBS / SentimentAnalysis 
+-[]
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (11.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
 Overfull \hbox (3.30516pt too wide) in paragraph at lines 148--148
 \OT1/ptm/m/n/10.95 (-20) ``Com-bin-ing Lex-i-con and Learn-ing Based Ap-proache
 s
@@ -1967,6 +1947,12 @@ tm/m/n/10.95 (-20) .
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (11.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
 Overfull \hbox (14.55786pt too wide) in paragraph at lines 148--148
 [][]\OT1/ptm/m/n/10.95 (-20) Zhang \OT1/ptm/m/it/10.95 (-20) et al. \OT1/ptm/m/
 n/10.95 (-20) 2011. ``Com-bin-ing Lexicon-based and Learning-
@@ -1980,7 +1966,9 @@ Package Fancyhdr Warning: \headheight is too small (11.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[8
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (kolokium_ekstensi.aux)
@@ -1988,24 +1976,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `kolokium_ekstensi.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'kolokium_ekstensi.run.xml'.
 \openout1 = `kolokium_ekstensi.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 27236 strings out of 493335
- 462844 string characters out of 3139260
- 942817 words of memory out of 3000000
- 29971 multiletter control sequences out of 15000+200000
- 80310 words of font info for 311 fonts, out of 3000000 for 9000
+ 27254 strings out of 493335
+ 463021 string characters out of 3139260
+ 941945 words of memory out of 3000000
+ 29977 multiletter control sequences out of 15000+200000
+ 81114 words of font info for 319 fonts, out of 3000000 for 9000
  1219 hyphenation exceptions out of 8191
- 60i,13n,94p,10423b,1482s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,13n,94p,10423b,1488s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -2018,7 +2001,7 @@ MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Aswin/AppData/Roaming
 TeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kolokium_ekstensi.pdf (8 pages, 205583 bytes).
+Output written on kolokium_ekstensi.pdf (8 pages, 206185 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)

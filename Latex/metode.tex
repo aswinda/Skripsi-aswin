@@ -211,7 +211,7 @@ Dalam penelitian ini, kata “baik” yang sebelumnya ada “tidak” akan dipro
 \end{algorithm}
 
 \subsection*{Klasifikasi}
-Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data terhadap data pencirinya. Salah satu tujuan dari klasifikasi teks atau dokumen adalah penggolongkan atau mengelompokkan suatu dokumen ke dalam suatu kategori tertentu (Manning et all. 2008). Klasifikasi juga bertujuan untuk memprediksi karakteristik dari suatu objek. Klasifikasi juga dapat digunakan untuk mendeteksi sentiment terhadap suatu isu. Data hasil indexing akan diklasifikasikan terhadap analisis sentiment. Pada penelitian ini menggunakan 3 kelas sentimen yang digunakan, yaitu positif, negatif dan netral.Fungsi klasifikasi secara umum untuk memetakan suatu dokumen ke dalam kategori tertentu yaitu
+Penelitian ini menggunakan tiga kelas sentimen yaitu, positif, negatif, dan netral. Data selanjutnya akan dikategorikan pada tahapan ini. Klasifikasi memiliki peranan yang penting untuk menganalisis sentimen terhadap data latih.  Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data terhadap data pencirinya. Pengolongan atau mengelompokan suatu dokumen ke dalam suatu kategori tertentu merupakan tujuan dari klasifikasi (\cite{MANNING2008}). Fungsi klasifikasi secara umum yaitu
 \begin{equation}
 \begin{split}
 \tiny
@@ -220,20 +220,17 @@ Klasifikasi pada analisis sentimen bertujuan untuk mengkategorikan setiap data t
 \normalsize
 \end{split}
 \end{equation}
-secara umum fungsi ini yang akan dipakai untuk mengelompok data ke dalam himpunan kelas atau kategori yang ada, dengan X adalah kumpulan dokumen dan C merupakan kategori. Fungsi klasifikasi terbagi menjadi dua metode yaitu, berbasis vektor dan berbasis peluang (Manning et all. 2009). Secara garis besar pada pendekataan berbasis peluang, penentuan kelas pada sebuah dokumen atau data adalah dengan cara menghitung peluang keberadaan data tersebut dalam suatu kelas. Metode yang sering digunakan adalah metode Naïve Bayes. Penggunaan model klasifikasi ini dikarenakan proses yang sederhana dan mudah diaplikasikan pada berbagai keadaan sehingga tidak akan mengalami kegagalan secara keseluruhan pada hasilnya (Manning et al. 2008).\newline 
+merupakan fungsi untuk memetakan suatu dokumen ke dalam kategori tertentu, dengan X adalah kumpulan dokumen dan C merupakan kategori. Metode klasifikasi terbagi menjadi dua, yaitu metode klasifikasi berbasis vektor dan peluang. Metode klasifikasi yang digunakan pada penelitian ini adalah metode klasifikasi berbasis peluang yaitu klasifikasi \textit{Multinomial Naïve Bayes}. Model klasifikasi ini digunakan karena proses yang sederhana dan pengaplikasiannya yang mudah pada berbagai keadaan (\cite{MANNING2008})
 
-Multivariate Bernoulli meyatakan bahwa dokumen diwakili oleh atribut biner yang menunjukkan bahwa ada dan tidak ada term (kata-kata) dalam dokumen. Frekuensi kemunculan term (kata-kata) dalam dokumen tidak ikut diperhitungkan.  
-Sedangkan Multinomial Naïve Bayes, dokumen diwakili oleh kemunculan term (kata-kata) dari dokumen. Pada model ini, sebelumnya dibuat asumsi jika kemunculan masing-masing term t bersifat independen antara satu term dengan yang lainnya. Dengan menggunakan nilai dari P(c/d) peluang suatu dokumen d di dalam kelas c dapat ditulis sebagai (Manning et al. 2009) [\ref{eq:multinb}]
-
+\textit{Multivariate Bernoulli} meyatakan bahwa dokumen diwakili oleh atribut biner yang menunjukkan bahwa ada dan tidak ada \textit{term} (kata-kata) dalam dokumen. Frekuensi kemunculan \textit{term} (kata-kata) dalam dokumen tidak ikut diperhitungkan.  
+Sedangkan \textit{Multinomial Naïve Bayes}, dokumen diwakili oleh kemunculan \textit{term} dari dokumen. Pada model ini, sebelumnya dibuat asumsi jika kemunculan masing-masing \textit{term} $t$ bersifat independen antara satu \textit{term} dengan yang lainnya. Dengan menggunakan nilai dari $P(c|d)$ peluang suatu dokumen d di dalam kelas $c$ dapat ditulis sebagai (\cite{MANNING2008})
 \begin{equation}
 \begin{split}
 P(C|d) \alpha P(c) \Xi_{1\le k\le nd}P(t_k|c)
 \label{eq:multinb}
 \end{split}
 \end{equation}
-
-dengan P(tk|c) adalah peluang dari suatu term tk muncul pada dokumen d yang diketahui memiliki kelas c. Pendugaan parameter P(tk|c) dihitung dengan cara [\ref{eq:multinblanjut}]
-
+dengan $P(tk|c$) adalah peluang dari suatu term tk muncul pada dokumen d yang diketahui memiliki kelas $c$. Pendugaan parameter $P(tk|c)$ dihitung dengan cara
 \begin{equation}
 \begin{split}
 \tiny
@@ -242,10 +239,9 @@ P(t_k|C) = \frac{T_{ct}}{\sum _{t' \in V} T_{ct'}}
 \normalsize
 \end{split}
 \end{equation}
+dengan $Tct$ adalah jumlah kemunculan \textit{term} $t$ dalam dokumen \textit{training} yang berada di kelas $c$.  adalah jumlah seluruh \textit{term} yang muncul berulang kali pada dokumen yang sama (\cite{MANNING2008}).
 
-dengan Tct adalah jumlah kemunculan \textit{term} t dalam dokumen \textit{training} yang berada di kelas c.  adalah jumlah seluruh term yang muncul berulang kali pada dokumen yang sama (Manning et al. 2009).
-Term tidak selalu muncul pada salah satu kelas saat dilakukan \newline klasifikasi sehinggga nilai P(tk|c) yang dihasilkan adalah nol. Untuk mengatasi permasalahan tersebut, digunakan \textit{laplace smoothing}, yaitu menambahkan frekuensi term sebanyak 1 sehingga perhitungan dari P (tk|c)menjadi (Manning et al. 2009) [\ref{eq:multinblanjutb}]
-
+Term tidak selalu muncul pada salah satu kelas saat dilakukan \newline klasifikasi sehinggga nilai $P(tk|c)$ yang dihasilkan adalah nol. Untuk mengatasi permasalahan tersebut, digunakan \textit{laplace smoothing}, yaitu menambahkan frekuensi term sebanyak 1 sehingga perhitungan dari $P(tk|c)$ menjadi
 \begin{equation}
 \begin{split}
 \tiny
@@ -255,26 +251,27 @@ P(t_k|C) = \frac{T_{ct}}{\sum _{t' \in V} T_{ct'} + B}
 \end{split}
 \end{equation}
 
-Multinomian Naive Bayes akan digunakan dalam klasifikasi sentimen pada penelitian ini.
+Pada penelitian ini \textit{Multinomial Naive Bayes} akan digunakan sebagai metode klasifikasinya.
 
 \subsection*{Evaluasi}
-Tahap evaluasi dilakukan untuk mengetahui tingkat akurasi dari hasil penggunaan \textit{indexing}, pemilihan fitur, serta klasifikasi pada data uji. Pengujian penelitian ini dilakukan pada data uji terhadap fungsi klasifikasi yang sudah di \textit{training}. Token dari hasil seleksi fitur, akan dihitung peluangnya berdasarkan kelas-kelasnya dari dokumen Twitter.
-\newline Setelah itu, membandingkannya dengan kelas aktual dari data uji dan kelas hasil prediksi dengan menggunakan \textit{confusion matrix}. Isi dari \textit{confusion matrix} adalah jumlah kasus-kasus yang telah diklasifikasikan dengan benar dan kasus-kasus yang salah diklasifikasikan
-\newline Evaluasi digunakan untuk mengukur efektivitas dari sistem IR. Dua pengukuran yang sering digunakan dalam IR adalah \textit{precision} dan \textit{recall}.
 
-\subsection*{Precision}
-Precision merupakan teknik untuk evaluasi yang didefinisikan sebagai presentase dokumen yang di-retrieve yang benar-benar relevan. [\ref{eq:precision}]
+Tahap evaluasi dilakukan untuk mengetahui tingkat akurasi dari hasil penggunaan \textit{indexing}, pemilihan fitur, serta klasifikasi pada data uji. Pengujian penelitian ini dilakukan pada data uji terhadap fungsi klasifikasi yang sudah di \textit{training}. \textit{Token} dari hasil seleksi fitur, akan dihitung peluangnya berdasarkan kelas-kelasnya dari dokumen Twitter. Setelah itu, membandingkannya dengan kelas aktual dari data uji dan kelas hasil prediksi dengan menggunakan \textit{confusion matrix}. Isi dari \textit{confusion matrix} adalah jumlah kasus-kasus yang telah diklasifikasikan dengan benar dan kasus-kasus yang salah diklasifikasikan.
 
+Evaluasi digunakan untuk mengukur efektivitas dari sistem IR. Dua pengukuran yang sering digunakan dalam IR adalah \textit{precision} dan \textit{recall}.
+
+\subsubsection*{\textit{Precision}}
+\textit{Precision} merupakan teknik untuk evaluasi yang didefinisikan sebagai presentase dokumen yang di-\textit{retrieve} yang benar-benar relevan. Formula \textit{Precision} didapatkan dengan
 \begin{equation}
 \begin{split}
-Precision = \frac{\#(relevant items retrieved)}{\#(retrieved items)} \\ 
+Precision = \frac{\#(relevant\: items\: retrieved)}{\#(retrieved\:  items)} \\ 
 = P(relevant|retrieved)
 \label{eq:precision}
 \end{split}
 \end{equation}
+dengan jumlah \textit{item} relevan yang didapatkan dibagi dengan jumlah item yang didapatkan.
 
-\subsection*{Recall}
-Recall adalah teknik evaluasi untuk menemukan semua item yang relevan dari dalam koleksi dokumen dan iddefinisikan sebagai presentase dokumen yang relevan. [\ref{eq:recall}]
+\subsubsection*{\textit{Recall}}
+\textit{Recall} adalah teknik evaluasi untuk menemukan semua item yang relevan dari dalam koleksi dokumen dan iddefinisikan sebagai presentase dokumen yang relevan. [\ref{eq:recall}]
 
 \begin{equation}
 \begin{split}
