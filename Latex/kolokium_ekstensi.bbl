@@ -416,6 +416,38 @@
       \field{year}{2010}
       \warn{\item Datamodel: Entry 'PAK10.385' (pustaka.bib): Invalid format '19-21' of date field 'date' - ignoring}
     \endentry
+    \entry{Pang+Lee+Vaithyanathan:02a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=f954c023cbaefd74cfaba0aa87f35048}{%
+           family={Pang},
+           family_i={P\bibinitperiod},
+           given={Bo},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=c3867d3f1b42ba3f8d7fc573ef12a0ec}{%
+           family={Lee},
+           family_i={L\bibinitperiod},
+           given={Lillian},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=6a02bbffcec6ad4af979eb4c5fdd1921}{%
+           family={Vaithyanathan},
+           family_i={V\bibinitperiod},
+           given={Shivakumar},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b42ac454bb1af85e41118d137b33052}
+      \strng{fullhash}{b42bb17ffe40048caa4c16b6bd4edad9}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of EMNLP}
+      \field{title}{Thumbs Up? Sentiment Classification Using Machine Learning Techniques}
+      \field{year}{2002}
+      \field{pages}{79\bibrangedash 86}
+      \range{pages}{8}
+    \endentry
     \entry{ZHANG2011}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=96641e4a5a09e69b32236adbdfd55407}{%
