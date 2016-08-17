@@ -271,17 +271,16 @@ Precision = \frac{\#(relevant\: items\: retrieved)}{\#(retrieved\:  items)} \\
 dengan jumlah \textit{item} relevan yang didapatkan dibagi dengan jumlah item yang didapatkan.
 
 \subsubsection*{\textit{Recall}}
-\textit{Recall} adalah teknik evaluasi untuk menemukan semua item yang relevan dari dalam koleksi dokumen dan iddefinisikan sebagai presentase dokumen yang relevan. [\ref{eq:recall}]
-
+\textit{Recall} adalah teknik evaluasi untuk menemukan semua \textit{item} yang relevan dari dalam koleksi dokumen dan didefinisikan sebagai presentase dokumen yang relevan. \textit{Recall} dapat dihitung dengan formula
 \begin{equation}
 \begin{split}
-Recall = \frac{\#(relevant items retrieved)}{\#(relevant items)} \\ 
+Recall = \frac{\#(relevant\: items\: retrieved)}{\#(relevant\: items)} \\ 
 = P(retrieved|relevant)
 \label{eq:recall}
 \end{split}
 \end{equation}
 
-Konsep tersebut dapat diperjelas pada tabel \ref{tab:konsep}.
+Konsep tersebut dapat diperjelas pada Tabel \ref{tab:konsep}.
 
 \begin{table}[hbt]
 	\caption{Tabel Kontigensi}
@@ -291,16 +290,15 @@ Konsep tersebut dapat diperjelas pada tabel \ref{tab:konsep}.
 			\toprule
 			aasd & Relevant & Not Relevant \\
 			\midrule
-			Retrieved & True positive (tp) & False positives (fp) \\
-			Not Retrieved & False negatives (fn) & True negatives (tn) \\
+			Retrieved & tp & fp \\
+			Not Retrieved & fn & tn \\
 			\bottomrule
 		\end{tabular}
 	\end{adjustbox}
 	\label{tab:konsep}
 \end{table}
 
-Maka didapatkan rumus seperti berikut [\ref{eq:evaluasi}]
-
+dengan tp adalah \textit{True Positive}, fp adalah \textit{False Positive}, fn adalah \textit{False Negatives}, dan tn adalah \textit{True Negatives}. Maka didapatkan rumus seperti 
 \begin{equation}
 \begin{split}
 \tiny
@@ -311,9 +309,8 @@ R = tp/(tp+fn)
 \end{split}
 \end{equation}
 
-\subsection*{Accuracy}
-Selain Precision dan Recall, keakuratan sentiment analisis juga dinilai dari akurasinya, untuk menghitung akurasi digunakan rumus seperti berikut dan mengacu tabel \ref{tab:konsep} [\ref{eq:akurasi}]
-
+\subsubsection*{Akurasi}
+Selain \textit{Precision} dan \textit{Recall}, keakuratan sentimen analisis juga dinilai dari akurasinya, untuk menghitung akurasi digunakan rumus seperti
 \begin{equation}
 \begin{split}
 \tiny
@@ -322,9 +319,9 @@ accuracy = (tp+tn)/(tp+fp+fn+tn)
 \normalsize
 \end{split}
 \end{equation}
-
+dan mengacu tabel \ref{tab:konsep}
 \subsection*{F-measure}
-Pengukuran yang lain adalah F-measure yang merupakan \textit{weighted harmonic mean} dari \textit{precision} dan \textit{recall}. [\ref{eq:fmeasure}]
+Pengukuran yang lain adalah \textit{F-measure} yang merupakan \textit{weighted harmonic mean} dari \textit{precision} dan \textit{recall}. Formula dari \textit{F-measure} seperti
 
 \begin{equation}
 \begin{split}
@@ -334,11 +331,9 @@ where \beta^2 = \frac{1 - \alpha}{\alpha}
 \label{eq:fmeasure}
 \end{split}
 \end{equation}
+dimana $\alpha$ $\in$ [0,1] dan $\beta^2$ $\in$ [0, $\Psi$]
 
-Dimana $\alpha$ $\in$ [0,1] dan $\beta^2$ $\in$ [0, $\Psi$]
-
-Balanced F-measure menyamakan bobot dari precision dan recall, yang berarti membuat $\alpha$ = 1/2 atau $\beta$ = 1. Ketika menggunakan $\beta$ = 1, formula dapat disederhanakan sebagai berikut  [\ref{eq:fmeasuredua}]
-
+\textit{Balanced F-measure} menyamakan bobot dari \textit{precision} dan \textit{recall}, yang berarti membuat $\alpha$ = 1/2 atau $\beta$ = 1. Ketika menggunakan $\beta$ = 1, formula dapat disederhanakan sebagai 
 \begin{equation}
 \begin{split}
 \tiny
@@ -347,3 +342,39 @@ F_\beta = \frac{2PR}{P + R}
 \normalsize
 \end{split}
 \end{equation}
+
+\subsection*{Jadwal Kegiatan}
+Penelitian ini akan dilakukan selama 4.5 bulan dengan rincian kegiatan seperti tercantum pada Tabel \ref{tab:jadwal}.
+\begin{table*}[t!]
+	\begin{center}
+		\caption{Rencana Jadwal Penelitian}
+		\label{tab:jadwal}
+		\footnotesize
+		\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			\multirow{2}{*}{Kegiatan}&\multicolumn{2}{c|}{1}&\multicolumn{4}{c|}{2}&\multicolumn{4}{c|}{3}&\multicolumn{4}{c|}{4}&\multicolumn{4}{c|}{5}\\
+			\cline{2-19}
+			&3&4&1&2&3&4&1&2&3&4&1&2&3&4&1&2&3&4\\
+			\hline
+			Penyusunan Proposal Skripsi&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&&&&&&&&&&&&&&\\
+			\hline
+			Kolokium&&&&&\cellcolor{black}&&&&&&&&&&&&&\\
+			\hline
+			Perbaikan proposal&&&&&&\cellcolor{black}&&&&&&&&&&&&\\
+			\hline
+			Pengambilan data Twitter&&&&&&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&&&&&&&&&&\\
+			\hline
+			Pembuatan sistem analisis sentimen &&&&&&&&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&&&&&&&\\
+			\hline
+			Penulisan draft skripsi&&&&&&&&&&&&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&\cellcolor{black}&&&\\
+			\hline
+			Uji sistem&&&&&&&&&&&&&&&&\cellcolor{black}&&\\
+			\hline
+			Sidang skripsi&&&&&&&&&&&&&&&&&\cellcolor{black}&\\
+			\hline
+			Perbaikan laporan penelitian&&&&&&&&&&&&&&&&&&\cellcolor{black}\\
+			\hline
+		\end{tabular}
+		\normalsize
+	\end{center}
+\end{table*}
