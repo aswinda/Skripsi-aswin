@@ -48,7 +48,7 @@ Dari struktur data yang didapatkan dari sistem tersebut, akan diambil atribut "t
 
 \subsection*{Indexing}
 
-\textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya.  Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan tweet hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing yang bukan bahasa Inggris (Parikh dan Movassate, 2014). Tahap-tahap yang dilakukan didalam proses \textit{indexing} meliputi \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, pembuatan \textit{term document matrix}.
+\textit{Indexing} merupakan proses persiapan yang dilakukan terhadap dokumen sehingga dokumen siap untuk diproses. Proses \textit{indexing} dibagi menjadi dua proses, yaitu \textit{document indexing} dan \textit{term indexing}. Dari \textit{term indexing} akan dihasilkan koleksi kata yang akan digunakan untuk meningkatkan performansi pencarian pada tahap selanjutnya.  Selain itu, teknik \textit{indexing} ini juga dilakukan agar hasil yang diperoleh lebih baik. Karena kebanyakan tweet hanya berisi tautan dan tidak menunjukkan sentimen tertentu, dan penulisannya ditulis dalam bahasa asing yang bukan bahasa Inggris (Parikh dan Movassate, 2014). Tahap-tahap yang dilakukan didalam proses \textit{indexing} meliputi \textit{tokenizing}, pengahapusan \textit{stopwords}, normalisasi kata, \textit{stemming}, pembuatan \textit{document term matrix}.
 
 
 \subsubsection*{\textit{Tokenizing}}
@@ -85,10 +85,10 @@ Menurut \citeauthor{AZIZ2013} (\cite*{AZIZ2013}) tahap normalisasi kata dilakuka
 \textit{Stemming} adalah proses konversi \textit{term} ke bentuk  umumnya. Dokumen dapat pula diekspansi dengan mencarikan  sinonim  bagi \textit{term} tertentu di  dalamnya. Sinonim adalah kata-kata yang mempunyai pengertian serupa tetapi berbeda dari sudut pandang morfologis. Seperti \textit{stemming},  operasi ini bertujuan menemukan suatu kelompok kata terkait.
 \textit{Stemming} merupakan salah satu cara yang digunakan untuk meningkatkan performa IR dengan cara mentransformasi kata-kata dalam sebuah dokumen teks ke kata dasarnya (\cite{agusta2009}). Tahap \textit{stemming} bertujuan untuk mengurangi jumlah kata dan mendapatkan kata dasar yang benar-benar sesuai.Tahap ini menggunakan algoritme \citeauthor{Adriani:2007:SIC:1316457.1316459} (\cite*{Adriani:2007:SIC:1316457.1316459}) untuk menghapus berbagai variasi \textit{prefix} (awalan) dan \textit{suffix} (akhiran). Kamus kata dasar sebanyak 28.526 kata.
 
-\subsubsection*{Pembuatan Term Document Matrix (TDM)}
+\subsubsection*{Pembuatan Document Term Matrix (DTM)}
 
-Menurut \citeauthor{nadilah2016} (\cite*{nadilah2016}) tahap pembuatan \textit{term document matrix} (TDM) dilakukan untuk membuat matriks jumlah kemunculan suatu kata pada dokumen. \textit{Term Document Matrix} (TDM) merupakan cara yang paling umum digunakan untuk merepresentasikan text. TDM dapat diekspor dari korpus dan digunakan sebagai mekanisme \textit{bag-of-words}. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Elemen matrik merupakan frekuensi.
-Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu “Nama saya budi dan ayah saya budi” dan “nama teman saya budi”. Term document matrix yang terbentuk adalah seperti pada Tabel \ref{tab:dtm}.
+Menurut \citeauthor{nadilah2016} (\cite*{nadilah2016}) tahap pembuatan \textit{term document matrix} (TDM) dilakukan untuk membuat matriks jumlah kemunculan suatu kata pada dokumen. \textit{Document Term Matrix} (DTM) merupakan cara yang paling umum digunakan untuk merepresentasikan text. DTM dapat diekspor dari korpus dan digunakan sebagai mekanisme \textit{bag-of-words}. Pendekatan ini menghasilkan matrik dengan id dokumen sebagai baris dan \textit{term} sebagai kolom. Elemen matrik merupakan frekuensi.
+Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu “Nama saya budi dan nama ayah saya budi” dan “nama teman saya budi”. Term document matrix yang terbentuk adalah seperti pada Tabel \ref{tab:dtm}.
 
 \begin{table}[hbt]
 	\caption{Document Term Matrix}
@@ -98,7 +98,7 @@ Sebagai contoh ada dua dokumen dengan id 1 dan 2 mempunyai kata yang sama yaitu 
 			\toprule
 			ID & nama & saya & budi & dan & ayah & teman \\
 			\midrule
-			1 & 1 & 1 & 1 & 1 & 1 & 0 \\
+			1 & 2 & 2 & 2 & 1 & 1 & 0 \\
 			2 & 1 & 1 & 1 & 0 & 0 & 1 \\
 			\bottomrule
 		\end{tabular}
@@ -134,7 +134,7 @@ sedangkan N adalah banyaknya dokumen dan df\textsubscript{t} adalah banyaknya do
 
 \textit{Negation Handling} adalah salah satu faktor yang berkontribusi meningkatkan akurasi klasifikasi. Karena setiap kata digunakan sebagai fitur kata "baik" dalam frase "tidak baik" akan mendapatkan sentimen positif daripada negatif karena kata "tidak" sebelumnya tidak dimasukkan dalam perhitungan.
 
-Dalam penelitian \citeauthor{NARAYANAN2013} (\cite*{NARAYANAN2013}) \textit{Negation Handling} diimplementasikan dalan klasifikasi sentimen menggunakan \textit{naive bayes} dan hasilnya menunjukkan peningkatan akurasi sebesar 10\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian tersebut kata “good” akan meningkatkan jumlah kelas positif dan kata “not\_good” yang sudah dilakukan negation handling masuk kedalam kelas negatif.
+Dalam penelitian \citeauthor{NARAYANAN2013} (\cite*{NARAYANAN2013}) \textit{Negation Handling} diimplementasikan dalan klasifikasi sentimen menggunakan \textit{naive bayes} dan hasilnya menunjukkan peningkatan akurasi sebesar 1\%. Data yang digunakan dalam penelitian tersebut adalah data review film. Dalam penelitian tersebut kata “good” akan meningkatkan jumlah kelas positif dan kata “not\_good” yang sudah dilakukan negation handling masuk kedalam kelas negatif.
 Dalam penelitian ini, kata “baik” yang sebelumnya ada “tidak” akan diproses dulu dengan \textit{Negation Handling} sehingga menjadi “tidak\_baik”, jadi berbeda dengan penelitian yang dilakukan \citeauthor{NARAYANAN2013} (\cite*{NARAYANAN2013}), kata “tidak\_baik” akan diperlakukan sebagai satu \textit{term} dan akan masuk ke dalam kelas negatif. Untuk menangani masalah ini dibuatlah algoritma untuk \textit{Negation Handling} menggunakan representasi bentuk negasi dari Das \& Chen (2001). Algoritma yang dugunakan akan mengubah kata yang diikuti kata negatif menjadi bentuk "tidak\_" + kata. Pseudocode pada [\ref{algo:negationh}] yang digunakan dalam penelitian ini.
 
 \begin{algorithm}
